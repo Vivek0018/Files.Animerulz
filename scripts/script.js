@@ -73,10 +73,14 @@ function show_search_box(){
     // search_field.style.transition = "all 5s";
 }
 var loader = document.getElementById("preloader");
+var recom_anime = document.getElementsByClassName("recommendations")[0];
+var nav = document.getElementsByClassName("nav-bar")[0];
+var add_this = document.getElementById("addthis");
 window.addEventListener("load", function(){      
 loader.style.display = "none";
-document.getElementById("addthis").style.display = "block";
+add_this.style.display = "block";
 // console.log(document.getElementsByTagName("nav")[0]);
-document.getElementsByTagName("nav")[0].style.display = "block";
-document.getElementsByClassName("recommedations")[0].style.display = "block";
+nav.style.display = "block";
+// console.log(document.getElementById("recommedations"));
+recom_anime.style.display = "block";
 });
