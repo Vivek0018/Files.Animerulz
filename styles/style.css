@@ -9,6 +9,25 @@ html,body{
     font-family: 'Montserrat',Arial;
     -webkit-text-size-adjust: none;
 }
+.preloader{
+  background: #000;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+.preloader-img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45vh;
+  border-radius: 20px;
+  width:40px;
+  height: 40px;
+  background:white url("yin-and-yang-spinning.gif") center center;
+  background-size: cover;
+}
+#addthis{
+  display: none;
+}
 a{
     text-decoration: none;
 }
@@ -190,6 +209,7 @@ button:hover{
     position: fixed;
     max-width: 1500px;
     transition: all 0.5s linear;
+    display: none;
 }
 .second-nav{
     background-image: url("kakashi-naruto.webp");
@@ -201,7 +221,7 @@ button:hover{
 @media only screen and (max-width:550px){
   .second-nav{
     background-image: url("naruto-sasuke-bg.jpg");
-    height: 300px;
+    height: 250px;
   }
 }
 .container-image-div{
@@ -496,6 +516,7 @@ h1{
   /*end share buttons*/
   /*anime recommendations start*/
   .recommendations{
+    display: none;
     margin-top:40px;
     padding: 10px 20px 10px 20px;
     background-color: rgba(0,0,0,0.1);
@@ -738,7 +759,7 @@ h1{
   .play-svg,.svg-read-manga{
     height: 17px;
     width: 22px;
-    margin-top: -1px;
+    margin-bottom: -3px;
 }
 .time-index{
   font-size: 12px;
@@ -856,12 +877,6 @@ h1{
   font-size: 13px;
   margin-left: -10px;
 }
-.anime-char h4{
-  font-size: 80%;
-}
-.anime-char span{
-  font-size: 70%;
-}
 }
 @media only screen and (max-width:700px){
   .container-image-div{
@@ -869,6 +884,9 @@ h1{
   }
 }
 @media only screen and (max-width:660px){
+  .button-read-manga,.button-watch-now{
+    height: 32px;
+  }
   .container{
     /* display: block; */
     flex-wrap: wrap;
@@ -951,19 +969,24 @@ h1{
 @media only screen and (max-width:470px){
   .text-data{
     display:  block;
-    width:auto;
+    width: 100%;
     text-align: center;
+    overflow-x: scroll;
   }
   .video-details-data{
     width: 130px;
+    min-width: 130px;
     margin-left: auto;
     margin-right: auto;
   }
   .video-l-details-data{
     width: 320px;
+    min-width: 320px;
     margin-left: auto;
-    margin-right: auto;
-    overflow-x: hidden;
+    margin-right: 10px;
+}
+  .list-b-h{
+    margin-bottom: 2px;
   }
   .nav-image{
     width:180px;
@@ -1023,12 +1046,15 @@ h1{
   }
 }
 @media only screen and (max-width:350px){
+  .video-details-data{
+    margin-bottom: 10px;
+  }
   .button-read-manga{
     margin-top: 10px;
   }
-  /* .data-in-container{
-    height: 280px;
-  } */
+  .data-in-container{
+    height: 270px;
+  }
   .video-l-details-data{
     display: none;
   }
