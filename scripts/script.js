@@ -72,3 +72,11 @@ function show_search_box(){
     }
     // search_field.style.transition = "all 5s";
 }
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){      
+loader.style.display = "none";
+document.getElementById("addthis").style.display = "block";
+// console.log(document.getElementsByTagName("nav")[0]);
+document.getElementsByTagName("nav")[0].style.display = "block";
+document.getElementsByClassName("recommedations")[0].style.display = "block";
+});
