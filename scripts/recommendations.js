@@ -1,6 +1,6 @@
 let http = new XMLHttpRequest();
 
-http.open("get", "JSON/recommendations.json", true);
+http.open("get", "recommendations.json", true);
 http.send();
 
 http.onload = function(){
