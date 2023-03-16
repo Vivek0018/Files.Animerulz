@@ -11,6 +11,10 @@
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63941f8bbe6d1b7e"></script>
 </head>
 <body>
+  <div class="preloader" id="preloader">
+    <div class="preloader-img">  
+    </div>
+  </div>
     <div class="main">
     <nav class="nav-bar" id="nav-bar-id">
         <img src="images/Animerulzlogo.webp" class="nav-image" alt="Animerulz">  
@@ -81,7 +85,6 @@
      var search_icon = document.getElementById("search-icon");
      var windowVerticalScroll = window.scrollY;
      var search_field = document.getElementById("search-input");
-     console.log(search_field);
      if((navRect.top-windowVerticalScroll) < "-250"){
         nav.style.backgroundColor = "#232643";
      }
@@ -121,7 +124,7 @@
                 <div class="video-l-details-data">
                     <ul class="list-b-h-1">
                         <li class="list-ele-h-1"><span>T.V. Series</span></li>
-                        <li class="list-ele-h-1 hidden-item-in-list" ><span>All languages</span></li>
+                        <li class="list-ele-h-1" ><span>All languages</span></li>
                         <li class="list-ele-h-1"><span>Episodes-110</span></li>
                         <li class="list-ele-h-1"><span>23min/epi</span></li>
                     </ul>
@@ -320,7 +323,7 @@
     <div class="season-anime season-5"><h3>Season-5</h3><span class="anime-seasons-ex">Epi : 107-110</span></div>
   </div>
 </div>
-    <div class="addthis_inline_share_toolbox">
+    <div class="addthis_inline_share_toolbox" id="addthis">
       <img class="image-at-share" src="images/share.webp">
       <span class="share-text-new"><strong>Share Us</strong></span ><span class="share-text-new-2">&nbsp;to your Friends</span></div>
     </div>
