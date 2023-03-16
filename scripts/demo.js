@@ -1,6 +1,6 @@
 let http = new XMLHttpRequest();
 
-http.open("get", "/updation-data.json", true);
+http.open("get", "updation-data.json", true);
 http.send();
 
 http.onload = function(){
