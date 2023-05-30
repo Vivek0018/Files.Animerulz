@@ -1,6 +1,6 @@
 let Naruto_file = new XMLHttpRequest();
 
-Naruto_file.open("get", "/scripts/JSON/more-from-naruto.json", true);
+Naruto_file.open("get", "JSON/more-from-naruto.json", true);
 Naruto_file.send();
 
 Naruto_file.onload = function(){
