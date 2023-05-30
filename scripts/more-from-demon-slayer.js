@@ -1,6 +1,6 @@
 let demon_slayer_file = new XMLHttpRequest();
 
-demon_slayer_file.open("get", "/scripts/JSON/more-from-demon-slayer.json", true);
+demon_slayer_file.open("get", "JSON/more-from-demon-slayer.json", true);
 demon_slayer_file.send();
 
 demon_slayer_file.onload = function(){
