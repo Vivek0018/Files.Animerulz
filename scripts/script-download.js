@@ -5,7 +5,7 @@ let epi_audio_from_url = urlParams.get("aud");
 // console.log(epi_number_from_url,epi_audio_from_url);
 
 let http_2 = new XMLHttpRequest();
-http_2.open("get", "/scripts/JSON/Episodes-links.JSON", true);
+http_2.open("get", "JSON/Episodes-links.JSON", true);
 http_2.send();
 
 var present_anime = document.getElementById("active-page-tag").textContent;
