@@ -4,7 +4,7 @@ let epi_num = urlParams.get("ep");
 let epi_aud = urlParams.get("aud");
 
 let short_anime_file = new XMLHttpRequest();
-short_anime_file.open("get", "/scripts/JSON/short-anime.JSON", true);
+short_anime_file.open("get", "JSON/short-anime.JSON", true);
 short_anime_file.send();
 
 document.getElementById("episode-number-in-video").innerHTML = epi_num;
