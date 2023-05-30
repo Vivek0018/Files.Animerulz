@@ -1,6 +1,6 @@
 let onepiece_file = new XMLHttpRequest();
 
-onepiece_file.open("get", "/scripts/JSON/more-from-onepiece.json", true);
+onepiece_file.open("get", "JSON/more-from-onepiece.json", true);
 onepiece_file.send();
 
 onepiece_file.onload = function(){
