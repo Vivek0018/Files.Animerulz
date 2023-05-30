@@ -1,6 +1,6 @@
 let best_on_anime_json_new = new XMLHttpRequest();
 
-best_on_anime_json_new.open("get", "/scripts/JSON/best_on_imdb.JSON", true);
+best_on_anime_json_new.open("get", "JSON/best_on_imdb.JSON", true);
 best_on_anime_json_new.send();
 
 best_on_anime_json_new.onload = function(){
