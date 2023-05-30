@@ -1,6 +1,6 @@
 let http_1 = new XMLHttpRequest();
 
-http_1.open("get", "/scripts/JSON/updated-time.json", true);
+http_1.open("get", "JSON/updated-time.json", true);
 http_1.send();
 
 http_1.onload = function(){
@@ -23,7 +23,7 @@ http_1.onload = function(){
             // console.log(anime_for_time.Naruto[0].default);
         else {
             if (present_anime_season.textContent == "Season-1")
-                anime_time = anime_for_time.time[0].s1;
+                anime_time = anime_for_time.time[0].s1; 
             else if (present_anime_season.textContent == "Season-2")
                 anime_time = anime_for_time.time[0].s2;
             else if (present_anime_season.textContent == "Season-3")
