@@ -1,6 +1,6 @@
 let Naruto_file = new XMLHttpRequest();
 
-Naruto_file.open("get", "https://vivek0018.github.io/Files.Animerulz/scripts/JSON/more-from-naruto.json", true);
+Naruto_file.open("get", "https://vivek0018.github.io/Files.Animerulz/scripts/JSON/more-from-Naruto.JSON", true);
 Naruto_file.send();
 
 Naruto_file.onload = function(){
