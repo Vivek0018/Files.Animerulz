@@ -335,12 +335,12 @@ html{
 .nxt-episode-info{
   margin: 10px 5px;
   /* margin-top: 10px; */
-  max-height: 20px;
+  max-height: 25px;
   padding: 5px 10px;
   background-color: #00947C;
   border-radius: 10px;
   font-size: 16px;
-  line-height: 1.5cm;
+  line-height: 1cm;
   color: rgba(255, 255, 255, 0.9);
 }
 .more-seasons{
