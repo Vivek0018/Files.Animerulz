@@ -1,0 +1,16 @@
+[ 
+    {
+    "name" : "Tokyo Revengers",
+    "background" : "https://img.zorores.com/_r/300x400/100/c0/4e/c04ee7106ea54910abdd39563d239374/c04ee7106ea54910abdd39563d239374.jpg",
+    "episodes" : "Ep-24",
+    "time" : "23min",
+    "onclick_div" : "https://animerulz.xyz/TokyoRevengers"
+    },
+    {
+    "name" : "Tokyo Revengers: Christmas Showdown",
+    "background" : "https://img.zorores.com/_r/300x400/100/fb/66/fb663be9a427cc4c9556a5a124b060e8/fb663be9a427cc4c9556a5a124b060e8.jpg",
+    "episodes" : "Ep-13",
+    "time" : "23min",
+    "onclick_div" : "https://animerulz.xyz/TokyoRevengersChristmasShowdown"
+    }
+]

@@ -1,0 +1,42 @@
+.background-container{
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    opacity: 0.4;
+    filter:blur(20px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+    background-attachment: fixed;
+  }
+  .main-container{
+    z-index: 2;
+    position: absolute;
+  }
+  .second-nav{
+    background : url("https://wallpaperaccess.com/full/7509929.jpg");
+    background-position-y: -300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+  }
+  @media only screen and (max-width:650px){
+    .second-nav{
+      background-position-y: 0px;
+    }
+  }
+  .more-from-this-anime{
+    /* margin-top: 150px; */
+    padding-top: 20px;
+  }
+  .recommendations{
+    margin-top: 0;
+  }
+  /* .video-l-details-data .list-ele-h-1{
+    overflow-x: hidden;
+  } */
+  /* @media only screen and (max-width:550px){
+    .second-nav{
+      background-image: url("naruto-sasuke-bg.webp");
+    }
+  } */
