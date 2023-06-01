@@ -335,6 +335,7 @@ html{
 .nxt-episode-info{
   margin: 10px 5px;
   /* margin-top: 10px; */
+  max-height: 20px;
   padding: 5px 10px;
   background-color: #00947C;
   border-radius: 10px;
