@@ -57,6 +57,7 @@ html{
   height:500px;
   border: 0;
   width: 100%;
+  min-height: 280px;
 }
 .main-container-video-sec-2{
   width: 30%;
@@ -340,7 +341,7 @@ html{
   background-color: #00947C;
   border-radius: 10px;
   font-size: 16px;
-  line-height: 1cm;
+  line-height: 0.75cm;
   color: rgba(255, 255, 255, 0.9);
 }
 .more-seasons{
