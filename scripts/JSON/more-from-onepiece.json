@@ -1,0 +1,51 @@
+[
+    {
+        "name" : "One Piece",
+        "background" : "https://img.zorores.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg",
+        "episodes" : "Ep-1062",
+        "time" : "24min/ep",
+        "onclick_div" : "http://Animerulz.xyz/OnePiece/"
+    },
+    {
+        "name" : "One Piece Film Red",
+        "background" : "https://img.zorores.com/_r/300x400/100/a1/e9/a1e98b07e290cd9653b41a895342a377/a1e98b07e290cd9653b41a895342a377.jpg",
+        "episodes" : "Movie",
+        "time" : "115min",
+        "onclick_div" : "http://Animerulz.xyz/OnePieceFilmRed/"
+    },
+    {
+        "name" : "One Piece Film Gold",
+        "background" : "https://img.zorores.com/_r/300x400/100/71/56/7156c377053c230cc42b66bbf7260325/7156c377053c230cc42b66bbf7260325.jpg",
+        "episodes" : "Movie",
+        "time" : "90min",
+        "onclick_div" : "http://Animerulz.xyz/OnePieceFilmGold/"
+    },
+    {
+        "name" : "One Piece Movie 1",
+        "background" : "https://img.zorores.com/_r/300x400/100/ff/73/ff736656ba002e0dd51363c3d889d9ff/ff736656ba002e0dd51363c3d889d9ff.jpg",
+        "episodes" : "Movie",
+        "time" : "50min",
+        "onclick_div" : "http://Animerulz.xyz/OnePieceMovie1/"
+    },
+    {
+        "name" : "One Piece Episode Skypiea",
+        "background" : "https://img.zorores.com/_r/300x400/100/6a/59/6a593442adebb95308e506e969852aa0/6a593442adebb95308e506e969852aa0.jpg",
+        "episodes" : "Movie",
+        "time" : "105min",
+        "onclick_div" : "http://Animerulz.xyz/OnePieceEpisodeSkypiea/"
+    },
+    {
+        "name" : "One Piece Film Stampede",
+        "background" : "https://img.zorores.com/_r/300x400/100/e8/a1/e8a122d878c53cddf5730946f3bae6fb/e8a122d878c53cddf5730946f3bae6fb.jpg",
+        "episodes" : "Movie",
+        "time" : "101min",
+        "onclick_div" : "http://Animerulz.xyz/OnePieceFilmStampede/"
+    },
+    {
+        "name" : "One Piece 3D Stravat chase",
+        "background" : "https://img.zorores.com/_r/300x400/100/01/60/01605691c2a52ce8c5f3226ec4a631a9/01605691c2a52ce8c5f3226ec4a631a9.jpg",
+        "episodes" : "Movie",
+        "time" : "30min",
+        "onclick_div" : "http://Animerulz.xyz/OnePiece3DStravatChase/"
+    }
+]
