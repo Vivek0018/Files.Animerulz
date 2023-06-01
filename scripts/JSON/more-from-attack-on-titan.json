@@ -1,0 +1,51 @@
+[
+    {
+        "name" : "Attack on Titan",
+        "background" : "https://img.zorores.com/_r/300x400/100/de/bf/debf027d032c6d40b91fab16b2ff9bd4/debf027d032c6d40b91fab16b2ff9bd4.jpg",
+        "episodes" : "Ep-25",
+        "time" : "24min/ep",
+        "onclick_div" : "https://animerulz.xyz/AttackonTitan/"
+    },
+    {
+        "name" : "Attack on Titan Season 2",
+        "background" : "https://img.zorores.com/_r/300x400/100/5d/97/5d97e8c9a57b03c06dd59650c0a3c693/5d97e8c9a57b03c06dd59650c0a3c693.jpg",
+        "episodes" : "Ep-12",
+        "time" : "24min/ep",
+        "onclick_div" : "https://animerulz.xyz/AttackonTitanSeason2/"
+    },
+    {
+        "name" : "Attack on Titan Season 3 Part 1",
+        "background" : "https://img.zorores.com/_r/300x400/100/98/b2/98b21bfbd9fa3d49ec80ba8fe75ed5cd/98b21bfbd9fa3d49ec80ba8fe75ed5cd.jpg",
+        "episodes" : "Ep-12",
+        "time" : "23min/ep",
+        "onclick_div" : "https://animerulz.xyz/AttackonTitanSeason3Part1/"
+    },
+    {
+        "name" : "Attack on Titan Season 3 Part 2",
+        "background" : "https://gogocdn.net/cover/shingeki-no-kyojin-season-3-part-2.png",
+        "episodes" : "Ep-10",
+        "time" : "23min/ep",
+        "onclick_div" : "https://animerulz.xyz/AttackonTitanSeason3Part2/"
+    },
+    {
+        "name" : "Attack on Titan Final Season Part 1",
+        "background" : "https://img.zorores.com/_r/300x400/100/83/da/83da53919d7a20332be01686141f18f6/83da53919d7a20332be01686141f18f6.jpg",
+        "episodes" : "Ep-16",
+        "time" : "23min/ep",
+        "onclick_div" : "https://animerulz.xyz/AttackonTitanFinalSeasonPart1/"
+    },
+    {
+        "name" : "Attack on Titan Final Season Part 2",
+        "background" : "https://img.zorores.com/_r/300x400/100/16/08/160831b6a0c1303e1439925d8f8c7395/160831b6a0c1303e1439925d8f8c7395.jpg",
+        "episodes" : "Ep-12",
+        "time" : "24min/ep",
+        "onclick_div" : "https://animerulz.xyz/AttackonTitanFinalSeasonPart2/"
+    },
+    {
+        "name" : "Attack on Titan Final Season Part 3",
+        "background" : "https://img.zorores.com/_r/300x400/100/54/d3/54d3f59bcc7caf1539c701eb0a064ec9/54d3f59bcc7caf1539c701eb0a064ec9.png",
+        "episodes" : "Ep-1",
+        "time" : "61min",
+        "onclick_div" : "https://animerulz.xyz/AttackonTitanFinalSeasonPart3/"
+    }
+]
