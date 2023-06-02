@@ -2376,5 +2376,18 @@
             "down_links" : ["https://gotaku1.com/download?id=MTEyOTI5&typesub=Zenitsu%20Anime-DUB&title=Dragon+Ball+Super+Movie%3A+Broly+%28Dub%29+Episode+1"]
         },
         "episodes_names" : ["Dragon Ball Super : Broly"]
+    },
+    "My Hero Academia Heroes Rising" : {
+        "jap" : {
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me/index.php?id=boku-no-hero-academia-the-movie-2-heroesrising-episode-",
+            "down_links" : ["https://gotaku1.com/download?id=MTQyMTM2&typesub=Zenitsu%20Anime-SUB&title=Boku+no+Hero+Academia+the+Movie+2%3A+Heroes%3ARising%09+Episode+1"]
+        },
+        "eng" : {
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me/index.php?id=boku-no-hero-academia-the-movie-2-heroesrising-dub-episode-",
+            "down_links" : ["https://gotaku1.com/download?id=MTQ2NTAw&typesub=Zenitsu%20Anime-DUB&title=Boku+no+Hero+Academia+the+Movie+2%3A+Heroes%3ARising+%28Dub%29+Episode+1"]
+        },
+        "episodes_names" : ["My Hero Academia Heroes Rising"]
     }
 }
