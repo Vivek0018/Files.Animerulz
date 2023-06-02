@@ -5,7 +5,7 @@
         "episodes" : "Ep-220",
         "time" : "23min/ep",
         "onclick_div" : "https://animerulz.xyz/Naruto/"
-    }, 
+    },
     {
         "name" : "Naruto Shippuden",
         "background" : "https://img.zorores.com/_r/300x400/100/9c/bc/9cbcf87f54194742e7686119089478f8/9cbcf87f54194742e7686119089478f8.jpg",
@@ -27,13 +27,13 @@
         "time" : "112min",
         "onclick_div" : "https://animerulz.xyz/NarutoMovieTheLast/"
     },{
-        "name" : "Naruto : Shippuuden Movie 4 : The Lost Tower",
+        "name" : "Naruto : Shippuden Movie 4 : The Lost Tower",
         "background" : "https://img.zorores.com/_r/300x400/100/68/c5/68c5ae4e5b496eb0474920659a9a85e2/68c5ae4e5b496eb0474920659a9a85e2.jpg",
         "episodes" : "Movie",
         "time" : "85min",
         "onclick_div" : "https://animerulz.xyz/Naruto/NarutoShippuudenTheLostTower/"
     },{
-        "name" : "Naruto : Shippuuden Movie 6 : Road to Ninja",
+        "name" : "Naruto : Shippuden Movie 6 : Road to Ninja",
         "background" : "https://img.zorores.com/_r/300x400/100/dd/e4/dde4a8a8ddd19648711845448d02d6d8/dde4a8a8ddd19648711845448d02d6d8.jpg",
         "episodes" : "Movie",
         "time" : "109min",
