@@ -9,7 +9,7 @@ let suggestions = [
     'Blue Lock',
     'Black Clover',
     'Bleach',
-    'Boruto Naruto next Generations',
+    'Boruto Naruto next Generation',
     'Berserk',
     "Bleach Thousand Year Blood War",
     "Berserk Season 2",
