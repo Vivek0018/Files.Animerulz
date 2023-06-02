@@ -2350,5 +2350,31 @@
             "down_links" : ["https://gotaku1.com/download?id=MTQ3OTc4&typesub=Zenitsu Anime-DUB&title=The+Last%3A+Naruto+the+Movie+%28Dub%29+Episode+1"]
         },
         "episodes_names" : ["The Last : Naruto the Movie"]
+    },
+    "Dragon Ball Super : Super Hero" : {
+        "jap" : {
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me/index.php?id=dragon-ball-super-super-hero-episode-",
+            "down_links" : ["https://gotaku1.com/download?id=MTg3ODI0&typesub=Zenitsu%20Anime-SUB&title=Dragon+Ball+Super%3A+Super+Hero+Episode+1"]
+        },
+        "eng" : {
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me/index.php?id=dragon-ball-super-super-hero-dub-episode-",
+            "down_links" : ["https://gotaku1.com/download?id=MjAwMTE4&typesub=Zenitsu%20Anime-DUB&title=Dragon+Ball+Super%3A+Super+Hero+%28Dub%29+Episode+1"]
+        },
+        "episodes_names" : ["Dragon Ball Super : Super Heros"]
+    },
+    "Dragon Ball Super : Broly" : {
+        "jap" : {
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me/index.php?id=dragon-ball-super-movie-broly-episode-",
+            "down_links" : ["https://gotaku1.com/download?id=MTEyOTI4&typesub=Zenitsu%20Anime-SUB&title=Dragon+Ball+Super+Movie%3A+Broly+Episode+1"]
+        },
+        "eng" : {
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me/index.php?id=dragon-ball-super-movie-broly-dub-episode-",
+            "down_links" : ["https://gotaku1.com/download?id=MTEyOTI5&typesub=Zenitsu%20Anime-DUB&title=Dragon+Ball+Super+Movie%3A+Broly+%28Dub%29+Episode+1"]
+        },
+        "episodes_names" : ["Dragon Ball Super : Broly"]
     }
 }
