@@ -57,7 +57,7 @@ let suggestions = [
     'Naruto',
     "Naruto Shippuden",
     "Naruto Shippuden Movie Road to Ninja",
-    "Naruto Shippuden Movie The Lost Hour",
+    "Naruto Shippuden Movie 4 The Lost Toour",
     "Naruto Movie The Last",
     "Naruto Movie 1: Ninja Clash in the Land of Snow",
     'One piece',
