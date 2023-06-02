@@ -129,7 +129,7 @@ nav_bar_cust();
 try{
     document.getElementById("a-home-anchor-tag").setAttribute("href", "https://Animerulz.xyz/");
     var activeAnime = document.getElementById("a-active-page-tag");
-    activeAnime.setAttribute("href", "https://Animerulz.xyz/" + activeAnime.textContent.replace(/\s/g, ""));
+    activeAnime.setAttribute("href", "https://Animerulz.xyz/" + activeAnime.textContent.replace(/\s/g, "").replace(",", "").replace(":", "").replace(";", ""));
 }
 catch{}
 try{
