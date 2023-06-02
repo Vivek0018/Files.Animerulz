@@ -1213,9 +1213,9 @@
             "https://gotaku1.com/download?id=MjA0OTc3&typesub=Animerulz Anime-SUB&title=Mashle+Episode+7"]
         },
         "eng" : {
-            "no_epi" : 0,
+            "no_epi" : 1,
             "link" : "https://player.anikatsu.me/index.php?id=Mashle-dub-episode-",
-            "down_links" : []
+            "down_links" : ["https://gotaku1.com/download?id=MjA1MDEy&typesub=Zenitsu%20Anime-DUB&title=Mashle+%28Dub%29+Episode+1"]
         },
         "episodes_names" : ["Mash Burnedead and the Body of the Gods", "Mash Burnedead and the Mysterious Maze", "Mash Burnedead and the Baleful Bully", "Mash Burnedead and the Challenging Magic User", "Mash Burnedead and the Unpopular Classmate", "Mash Burnedead and the Magic of Iron", "Mash Burnedead and the Mysterious Letter", "Mash Burnedead and the Puppet Master"]
     },
