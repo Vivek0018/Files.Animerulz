@@ -1,5 +1,5 @@
 
-setTimeout(pageChecker, 100);
+setTimeout(pageChecker, 500);
 
 
 function pageChecker(){
