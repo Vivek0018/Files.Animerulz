@@ -41,7 +41,7 @@ let suggestions = [
     "Dr Stone: Stone Wars Eve of the Battle Special Feature",
     "Dragon Ball Z Kai",
     'Full Metal Alchemist : Brotherhood',
-    'Hells Paradise',
+    "Hell's Paradise",
     'Hunter X Hunter',
     'Jujutsu Kaisen',
     "Jujutsu kaisen 0 Movie",
