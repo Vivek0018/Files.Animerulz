@@ -32,7 +32,7 @@ long_anime_file.onload = function(){
             max_range=current_long_anime_epi_num;
         min_range ++;
         episodes_numbers.innerHTML = " " + min_range + "-" + max_range;
-        anime = anime.textContent.replace(/\s/g, "").replace(":", "").replace(";", "").replace(".", "");
+        anime = anime.textContent.replace(/[^a-zA-Z0-9]/g, "");
         for(let i = min_range; i <= max_range; i++){
             if(i == epi_num){
                 temp = "<div class='episode active'>" + i + "</div>";
