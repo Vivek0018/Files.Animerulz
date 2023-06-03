@@ -1,0 +1,30 @@
+[
+    {
+    "name" : "One Punch Man",
+    "background" : "https://img.zorores.com/_r/300x400/100/f5/d1/f5d173f8317f592c6c70d594829b89e4/f5d173f8317f592c6c70d594829b89e4.jpg",
+    "episodes" : "Ep-12",
+    "time" : "24min",
+    "onclick_div" : "https://animerulz.xyz/OnePunchMan"
+    },
+    {
+    "name" : "One Punch Man Season 2",
+    "background" : "https://img.zorores.com/_r/300x400/100/c5/03/c50314f1aa980665c1316d36952d4446/c50314f1aa980665c1316d36952d4446.jpg",
+    "episodes" : "Ep-12",
+    "time" : "23min",
+    "onclick_div" : "https://animerulz.xyz/OnePunchManSeason2"
+    },
+    {
+    "name" : "One Punch Man Specials",
+    "background" : "https://img.zorores.com/_r/300x400/100/09/5d/095dbd73ccb0506e0e7ce16021df0924/095dbd73ccb0506e0e7ce16021df0924.jpg",
+    "episodes" : "Ep-6",
+    "time" : "12min",
+    "onclick_div" : "https://animerulz.xyz/OnePunchManSpecials"
+    },
+    {
+    "name" : "One Punch Man Season 2 Specials",
+    "background" : "https://img.zorores.com/_r/300x400/100/a7/a3/a7a33a567ef4d244b12b6050fa7865ff/a7a33a567ef4d244b12b6050fa7865ff.jpg",
+    "episodes" : "Ep-6",
+    "time" : "12min",
+    "onclick_div" : "https://animerulz.xyz/OnePunchManSeason2Specials"
+    }
+]
