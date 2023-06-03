@@ -138,7 +138,7 @@ try{
 catch{}
 
 try{
-    if(document.getElementById("home-anchor-tag") == null)
+    if(document.getElementById("home-anchor-tag") != null)
     document.getElementsByClassName("nav-bar")[0].setAttribute("onclick", "window.open('https://animerulz.xyz/','_self'");
 }
 catch{}
