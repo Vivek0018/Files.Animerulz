@@ -11,7 +11,7 @@ let suggestions = [
     'Bleach',
     'Boruto Naruto next Generation',
     'Berserk',
-    "Bleach Thousand Year Blood War",
+    "Bleach Thousand Year Blood War Arc",
     "Berserk Season 2",
     "Bleach The Sealed Sword Frenzy",
     "Bleach the Movie : Hell Verse",
