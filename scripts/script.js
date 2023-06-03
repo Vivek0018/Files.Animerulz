@@ -41,7 +41,7 @@ inputBox.onkeyup = (e)=>{
 
 function select(element){
     let selectData = element.textContent;
-    window.open("https://animerulz.xyz/" + selectData.replace(/\s/g, "").replace(":", "").replace(".", "").replace(";", "").replace(",", "" ).replace("'",""), "_self");
+    window.open("https://animerulz.xyz/" + selectData.replace(/[^a-zA-Z0-9]/g, ""), "_self");
 }
 
 function showSuggestions(list){
