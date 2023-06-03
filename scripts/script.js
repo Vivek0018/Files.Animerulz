@@ -136,3 +136,9 @@ try{
     document.getElementsByClassName('button-read-manga')[0].setAttribute("onclick", "window.open('https://mangareader.to/')");
 }
 catch{}
+
+try{
+    if(document.getElementById("home-anchor-tag") == null)
+    document.getElementsByClassName("nav-bar")[0].setAttribute("onclick", "window.open('https://animerulz.xyz/','_self'");
+}
+catch{}
