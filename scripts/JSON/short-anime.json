@@ -2389,5 +2389,18 @@
             "down_links" : ["https://gotaku1.com/download?id=MTQ2NTAw&typesub=Zenitsu%20Anime-DUB&title=Boku+no+Hero+Academia+the+Movie+2%3A+Heroes%3ARising+%28Dub%29+Episode+1"]
         },
         "episodes_names" : ["My Hero Academia Heroes Rising"]
+    },
+    "Dr Stone : Stone Wars Eve of the Battle Special Feature" : {
+        "jap" : {
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me/index.php?id=dr-stone-stone-wars-kaisen-zenya-special-eizou-episode-",
+            "down_links" : ["https://gotaku1.com/download?id=MTQ2Njc1&typesub=Zenitsu%20Anime-SUB&title=Dr.+Stone%3A+Stone+Wars+-+Kaisen+Zenya+Special+Eizou+Episode+1"]
+        },
+        "eng" : {
+            "no_epi" : 0,
+            "link" : "",
+            "down_links" : [""]
+        },
+        "episodes_names" : ["Dr Stone : Stone Wars Eve of the Battle Special Feature"]
     }
 }
