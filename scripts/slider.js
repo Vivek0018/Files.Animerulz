@@ -14,10 +14,12 @@ setGradientDivisionHeights(commonHeight);
 
 
 function setGradientDivisionHeights(commonHeight){
+  let sliderImage = document.getElementsByClassName("img-in-slide")[0];
   let gradientDiv1 = document.getElementsByClassName("gradient-division-1")[0];
   let gradientDiv2 = document.getElementsByClassName("gradient-division-2")[0];
   gradientDiv1.style.height = commonHeight + 5 + "px"; 
   gradientDiv2.style.height = commonHeight + 5 + "px"; 
+  sliderImage.style.height  = commonHeight + 5 + "px";
   if(window.innerWidth < 1100)
       document.getElementsByClassName("slide-change-btns")[0].style.marginTop = commonHeight + "px" ;
   else
