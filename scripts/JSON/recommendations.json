@@ -2,7 +2,7 @@
     {
         "name" : "Attack On Titan",
         "background" : "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-C6FPmWm59CyP.jpg",
-        "episodes" : "Ep-24/25",
+        "episodes" : "Ep-25/25",
         "time" : "24min/ep",
         "onclick_div":"https://animerulz.xyz/AttackonTitan/"
     },
@@ -32,7 +32,7 @@
         "background" : "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-PEn1CTc93blC.jpg",
         "episodes" : "Ep-24/24",
         "time" : "24min/ep",
-        "onclick_div" : "https://animerulz.xyz/Demonslayerkimetsunoyaiba/"
+        "onclick_div" : "https://animerulz.xyz/DemonSlayerKimetsunoYaiba/"
     },
     {
         "name" : "Naruto",
