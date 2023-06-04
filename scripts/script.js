@@ -145,3 +145,9 @@ try{
     document.getElementsByClassName("nav-image")[0].setAttribute("onclick", "window.open('https://animerulz.xyz/','_self')");
 }
 catch{}
+
+
+try{
+    document.getElementsByClassName("second-nav")[0].style.backgroundPositionX = "center";
+}
+catch{}
