@@ -3,13 +3,13 @@
     "name": "Animerulz.xyz",
     "icons": [
       {
-        "src": "https://vivek0018.github.io/Files.Animerulz/images/favicon.webp",
+        "src": "https://vivek0018.github.io/Files.Animerulz/images/favicon.webp/?v=0.1",
         "type": "image/webp",
         "sizes": "192x192",
         "purpose": "any maskable"
       },
       {
-        "src": "https://vivek0018.github.io/Files.Animerulz/images/favicon.webp",
+        "src": "https://vivek0018.github.io/Files.Animerulz/images/favicon.webp/?v=0.1",
         "type": "image/webp",
         "sizes": "512x512",
         "purpose": "any maskable"
