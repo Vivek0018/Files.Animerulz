@@ -447,7 +447,7 @@ a{
     }
     .slider .slide-container .slide-btn{
     height: 30px;
-    padding: 0px 10px;
+    padding: 7px 10px;
     }
     .slider .slide-container .details-btn{
     padding-right: 30px;
@@ -469,7 +469,7 @@ a{
     .slide-change-btns .btn{
     height: 25px;
     width: 30px;
-    padding: 0 2px 5px 2px;
+    /* padding:  2px 5px 2px; */
     border-radius: 15px;
     }
     .slider-dots .slide-dot{
@@ -501,12 +501,13 @@ a{
     .slider .slide-container .slide-btn{
     height: 25px;
     font-size: 12px;
-    padding: 0px 10px;
+    padding: 5px 10px;
     }
     .slider .slide-container .play-svg{
     height: 13px;
     }
     .slider .slide-container .svg-icon-on-slide{
+      margin-top: 0px;
     height: 20px;
     }
     .slider .slide-container .details-btn:hover > .svg-icon-on-slide{
