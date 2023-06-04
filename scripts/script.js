@@ -76,7 +76,6 @@ function show_search_box(){
 // var nav = document.getElementsByClassName("nav-bar")[0];
 // var add_this = document.getElementById("addthis");
 setTimeout(preloaderDisplayNone, 5000);
-try{
 window.addEventListener("load", function(){    
     // if(loader != null)  
         preloaderDisplayNone();
@@ -89,13 +88,16 @@ window.addEventListener("load", function(){
     //     recom_anime.style.display = "block";
     // if(image_in_video != null)
     //     image_in_video.style.display = "block";
-});
-}
-catch{}
-function preloaderDisplayNone(){
-    var loader = document.getElementById("preloader");
-    loader.style.display = "none";    
-}
+    });
+    function preloaderDisplayNone(){
+        try{
+            var loader = document.getElementById("preloader");
+            if(loader != null && loader != undefined)
+            loader.style.display = "none";    
+        }
+        catch{}
+    }
+
 //for navbar 
 function nav_bar_cust(){
     window.onscroll = function(){
