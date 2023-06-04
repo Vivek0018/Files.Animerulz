@@ -76,8 +76,9 @@ function show_search_box(){
 // var nav = document.getElementsByClassName("nav-bar")[0];
 // var add_this = document.getElementById("addthis");
 setTimeout(preloaderDisplayNone, 5000);
+try{
 window.addEventListener("load", function(){    
-    if(loader != null)  
+    // if(loader != null)  
         preloaderDisplayNone();
     // if(add_this != null)
     //     add_this.style.display = "block";
@@ -89,6 +90,8 @@ window.addEventListener("load", function(){
     // if(image_in_video != null)
     //     image_in_video.style.display = "block";
 });
+}
+catch{}
 function preloaderDisplayNone(){
     var loader = document.getElementById("preloader");
     loader.style.display = "none";    
