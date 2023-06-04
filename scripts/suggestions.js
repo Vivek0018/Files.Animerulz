@@ -31,7 +31,7 @@ let suggestions = [
     "Demon Slayer Movie Siblings Bond",
     "Demon Slayer Movie Hashira Meeting Arc",
     "Demon Slayer Mt.Natagumo Arc",
-    "Dragon Ball Super Movie : Super Hero",
+    "Dragon Ball Super : Super Hero",
     "Dragon Ball",
     "Dr Stone",
     "Dragon Ball GT",
