@@ -60,7 +60,7 @@ let suggestions = [
     "Naruto Shippuden Movie 4 The Lost Toour",
     "Naruto Movie The Last",
     "Naruto Movie 1: Ninja Clash in the Land of Snow",
-    'One piece',
+    'One Piece',
     "One Piece Film Red",
     'One Punch Man',
     "One Punch Man Season 2",
