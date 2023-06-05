@@ -18,7 +18,7 @@
         "background" : "https://img.zorores.com/_r/300x400/100/32/c8/32c83e2ad4a43229996356840db3982c/32c83e2ad4a43229996356840db3982c.jpg",
         "episodes" : "Ep-293",
         "time" : "24min/ep",
-        "onclick_div" : "https://animerulz.xyz/BorutoNarutoNextGeneration/"
+        "onclick_div" : "https://animerulz.xyz/BorutoNarutonextGeneration/"
     },
     {
         "name" : "Naruto Movie : The Last",
@@ -31,18 +31,18 @@
         "background" : "https://img.zorores.com/_r/300x400/100/68/c5/68c5ae4e5b496eb0474920659a9a85e2/68c5ae4e5b496eb0474920659a9a85e2.jpg",
         "episodes" : "Movie",
         "time" : "85min",
-        "onclick_div" : "https://animerulz.xyz/Naruto/NarutoShippuudenTheLostTower/"
+        "onclick_div" : "https://animerulz.xyz/NarutoShippudenMovie4TheLostTower/"
     },{
         "name" : "Naruto : Shippuden Movie 6 : Road to Ninja",
         "background" : "https://img.zorores.com/_r/300x400/100/dd/e4/dde4a8a8ddd19648711845448d02d6d8/dde4a8a8ddd19648711845448d02d6d8.jpg",
         "episodes" : "Movie",
         "time" : "109min",
-        "onclick_div" : "https://animerulz.xyz/NarutoShippuudenRoadtoNinja/"
+        "onclick_div" : "https://animerulz.xyz/NarutoShippudenMovie6RoadtoNinja/"
     },{
         "name" : "Naruto Movie 1 : Ninja Clash in the Land of Snow",
         "background" : "https://img.zorores.com/_r/300x400/100/a1/ab/a1ab85f1eb75ec0a986e4c9d5fe04b49/a1ab85f1eb75ec0a986e4c9d5fe04b49.jpg",
         "episodes" : "Movie",
         "time" : "82min",
-        "onclick_div" : "https://animerulz.xyz/NarutoNinjaClashintheLandofSnow/"
+        "onclick_div" : "https://animerulz.xyz/NarutoMovie1NinjaClashintheLandofSnow/"
     }
 ]
