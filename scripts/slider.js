@@ -43,8 +43,10 @@ const slideDot = document.getElementsByClassName("slide-dot");
 
 let count = 0;
 
-
-let slideCount = setInterval(changeSlide, 4000);
+setTimeout(callChangeslide, 4000);
+function callChangeslide(){
+  let slideCount = setInterval(changeSlide, 4000);
+}
 
 function changeSlide(){
     slide[count].setAttribute("class", "slide");
