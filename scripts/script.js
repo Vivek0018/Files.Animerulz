@@ -62,6 +62,7 @@ function show_search_box(){
     }
     else{
       search_field.style.display = "block";
+      document.getElementsByTagName("input")[0].focus();
     }
     // if((navRect.top-windowVerticalScroll) < "-930"){
     //     search_field.style.display = "none";
