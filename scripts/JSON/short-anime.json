@@ -1239,12 +1239,15 @@
             "https://gotaku1.com/download?id=MjAzODc0&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+4",
             "https://gotaku1.com/download?id=MjA0Mjc4&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+5",
             "https://gotaku1.com/download?id=MjA0NjQ4&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+6",
-            "https://gotaku1.com/download?id=MjA0ODcx&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+7"]
+            "https://gotaku1.com/download?id=MjA0ODcx&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+7",
+            "https://gotaku1.com/download?id=MjA1NzQ4&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+8"]
         },
         "eng" : {
-            "no_epi" : 0,
+            "no_epi" : 3,
             "link" : "https://player.anikatsu.me/index.php?id=oshi-no-ko-dub-episode-",
-            "down_links" : []
+            "down_links" : ["https://gotaku1.com/download?id=MjA0ODc1&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+1",
+                            "https://gotaku1.com/download?id=MjA1MzIx&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+2",
+                            "https://gotaku1.com/download?id=MjA1NzUx&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+3"]
         },
         "episodes_names" : ["Mother and Children", "Third Option", "Manga-Based TV Drama", "Actors", "Reality Dating Show", "Egosurfing", "Buzz"]
     },
@@ -1469,7 +1472,7 @@
             "https://gotaku1.com/download?id=MjA0Njc1&typesub=Animerulz Anime-SUB&title=Dr.+Stone%3A+New+World+Episode+7",
             "https://gotaku1.com/download?id=MjA0OTI5&typesub=Animerulz Anime-SUB&title=Dr.+Stone%3A+New+World+Episode+8",
         "https://gotaku1.com/download?id=MjA1MzYx&typesub=Animerrulz%20Anime-SUB&title=Dr.+Stone%3A+New+World+Episode+9",
-        "https://gotaku1.com/download?id=MjA1ODA0&typesub=AniKatsu-SUB&title=Dr.+Stone%3A+New+World+Episode+10"]
+        "https://gotaku1.com/download?id=MjA1ODA0&typesub=Animerulz Anime-SUB&title=Dr.+Stone%3A+New+World+Episode+10"]
         },
         "eng" : {
             "no_epi" : 8,
@@ -1482,7 +1485,7 @@
             "https://gotaku1.com/download?id=MjA0Njgz&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+5",
             "https://gotaku1.com/download?id=MjA0OTM3&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+6",
         "https://gotaku1.com/download?id=MjA1MzY5&typesub=Animerulz%20Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+7",
-        "https://gotaku1.com/download?id=MjA1ODEy&typesub=AniKatsu-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+8"]
+        "https://gotaku1.com/download?id=MjA1ODEy&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+8"]
         },
         "episodes_names" : ["New World Map", "Greed Equals Justice", "First Contact", "Eyes of Science", "Science Vessel Perseus", "Treasure Box", "Ray of Despair, Ray of Hope", "The Trump Card Aboard the Science Vessel", "Beauty Science", "Science Wars", "With This Fist, A Miracle"]
     },
