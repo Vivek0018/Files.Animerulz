@@ -9,6 +9,9 @@ const icon = searchWrapper.querySelector(".icon");
 let linkTag = searchWrapper.querySelector("a");
 let webLink;
 
+
+inputBox.setAttribute("type", "search");
+inputBox.style.width = "100%";
 // if user press any key and release
 inputBox.onkeyup = (e)=>{
     let userData = e.target.value; //user enetered data
@@ -157,3 +160,4 @@ try{
     document.getElementsByClassName("second-nav")[0].style.backgroundPositionX = "center";
 }
 catch{}
+
