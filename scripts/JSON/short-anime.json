@@ -199,7 +199,7 @@
     },
     "Demon Slayer Swordsmith Village Arc" :{
         "jap" : {
-            "no_epi" :  9,
+            "no_epi" :  10,
             "link" : "https://player.anikatsu.me/index.php?id=kimetsu-no-yaiba-katanakaji-no-sato-hen-episode-",
             "down_links" : 
             ["https://gotaku1.com/download?id=MjAyNDc0&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+1",
@@ -210,13 +210,14 @@
             "https://gotaku1.com/download?id=MjA0NTA2&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+6",
             "https://gotaku1.com/download?id=MjA0NzY2&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+7",
             "https://gotaku1.com/download?id=MjA1MDkw&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+8",
-        "https://gotaku1.com/download?id=MjA1NTIz&typesub=Animerulz%20Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+9"]
+            "https://gotaku1.com/download?id=MjA1NTIz&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+9",
+            "https://gotaku1.com/download?id=MjA2MDE5&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+10"]
         },
         "eng" : {
             "no_epi" : 2,
             "link" : "https://player.anikatsu.me/index.php?id=demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-dub-episode-",
             "down_links" : ["https://gotaku1.com/download?id=MjA1MTAx&typesub=Zenitsu%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+1",
-        "https://gotaku1.com/download?id=MjA1NTI2&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+2o"]
+                            "https://gotaku1.com/download?id=MjA1NTI2&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+2o"]
         },
         "episodes_names" :[
             "Someones Dream",
@@ -227,7 +228,8 @@
             "Arent You Going to Become a Hashira?",
             "Awful Villain",
             "The Mu in Muichiro",
-            "The Mist Hashira Muichiro Tokito"
+            "The Mist Hashira Muichiro Tokito",
+            "Love Hashira Mitsuri Kanroji"
         ]
     },
     "FullMetal Alchemist : Brotherhood" : {
