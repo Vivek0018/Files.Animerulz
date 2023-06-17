@@ -1,0 +1,16 @@
+[
+    {
+        "name" : "Black CLover",
+        "background" : "https://img.zorores.com/_r/300x400/100/f5/8b/f58b0204c20ae3310f65ae7b8cb9987e/f58b0204c20ae3310f65ae7b8cb9987e.jpg",
+        "episodes" : "Ep-170",
+        "time" : "23min/ep",
+        "onclick_div" : "https://animerulz.xyz/BlackClover/"
+    },
+    {
+        "name" : "Black Clover Sword of the Wizard King",
+        "background" : "https://img.zorores.com/_r/300x400/100/44/7b/447bc03aeeaffb95729df74c0b98f1ce/447bc03aeeaffb95729df74c0b98f1ce.jpg",
+        "episodes" : "Ep-1",
+        "time" : "110min/ep",
+        "onclick_div" : "https://animerulz.xyz/BlackCloverSwordoftheWizardKing/"
+    }
+]
