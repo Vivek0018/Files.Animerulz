@@ -106,6 +106,7 @@ long_anime_file.onload = function(){
             document.getElementsByName(epi_aud)[0].classList.add("active-aud");
         }
         catch{
+            // console.log("Hello");
             let anime_audios = document.getElementsByClassName("audio")[0];
             temp = "https://animerulz.xyz/" + anime + "/Watch-Now/?ep=" + epi_num + "&aud=" + anime_audios.getAttribute("name") ;
             window.open(temp, "_self");
@@ -147,9 +148,9 @@ long_anime_file.onload = function(){
         if(epi_aud == "jap" || epi_aud == "eng"){
             let current_long_anime_data_video_link = current_long_anime_data[epi_aud]['link'];
             video_player.setAttribute("src", current_long_anime_data_video_link + epi_num);  
-        } 
+        }
         else{
-            video_player.setAttribute("src", current_long_anime_data[epi_aud]["links"][epi_num - 1]);
+            video_player.setAttribute("src", "https://sbrapid.com/e/" + current_long_anime_data[epi_aud]["links"][epi_num - 1] + ".html");
         }     
         try{
            document.getElementsByClassName("button-download-now")[0].setAttribute("onclick", "window.open('" + current_long_anime_data[epi_aud]["down_links"][epi_num - 1] + "')");
