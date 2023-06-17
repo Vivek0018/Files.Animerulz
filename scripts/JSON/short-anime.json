@@ -2420,5 +2420,18 @@
             "down_links" : [""]
         },
         "episodes_names" : ["Dr Stone : Stone Wars Eve of the Battle Special Feature"]
+    },
+    "Black Clover Sword of the Wizard King" : {
+        "jap" : {
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me?id=black-clover-mahou-tei-no-ken-episode-",
+            "down_links" : ["https://gotaku1.com/download?id=MjA2MzY4&typesub=AniKatsu-DUB&title=Black+Clover%3A+Mahou+Tei+no+Ken+%28Dub%29+Episode+1"]
+        },
+        "eng" : {
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me?id=black-clover-mahou-tei-no-ken-dub-episode-",
+            "down_links" : ["https://gotaku1.com/download?id=MjA2MzY0&typesub=AniKatsu-SUB&title=Black+Clover%3A+Mahou+Tei+no+Ken+Episode+1"]
+        },
+        "episodes_names" : ["Black Clover Sword of the Wizard King"]
     }
 }
