@@ -153,7 +153,10 @@ long_anime_file.onload = function(){
             video_player.setAttribute("src", "https://sbrapid.com/e/" + current_long_anime_data[epi_aud]["links"][epi_num - 1] + ".html");
         }     
         try{
-           document.getElementsByClassName("button-download-now")[0].setAttribute("onclick", "window.open('" + current_long_anime_data[epi_aud]["down_links"][epi_num - 1] + "')");
+            if(epi_aud == "jap" || epi_aud == "eng")
+                document.getElementsByClassName("button-download-now")[0].setAttribute("onclick", "window.open('" + current_long_anime_data[epi_aud]["down_links"][epi_num - 1] + "')");
+            else 
+                document.getElementsByClassName("button-download-now")[0].setAttribute("onclick", "window.open('https://sbrapid.com/d/" +  current_long_anime_data[epi_aud]["links"][epi_num - 1] + ".html')");
         }
         catch{};
     }
