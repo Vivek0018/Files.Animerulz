@@ -1462,7 +1462,7 @@
     },
     "Dr Stone : New World" : {
         "jap" : {
-            "no_epi" : 10,
+            "no_epi" : 11,
             "link" : "https://player.anikatsu.me/index.php?id=dr-stone-new-world-episode-",
             "down_links" : 
             ["https://gotaku1.com/download?id=MjAyMzIz&typesub=Animerulz Anime-SUB&title=Dr.+Stone%3A+New+World+Episode+1",
@@ -1474,10 +1474,11 @@
             "https://gotaku1.com/download?id=MjA0Njc1&typesub=Animerulz Anime-SUB&title=Dr.+Stone%3A+New+World+Episode+7",
             "https://gotaku1.com/download?id=MjA0OTI5&typesub=Animerulz Anime-SUB&title=Dr.+Stone%3A+New+World+Episode+8",
         "https://gotaku1.com/download?id=MjA1MzYx&typesub=Animerrulz%20Anime-SUB&title=Dr.+Stone%3A+New+World+Episode+9",
-        "https://gotaku1.com/download?id=MjA1ODA0&typesub=Animerulz Anime-SUB&title=Dr.+Stone%3A+New+World+Episode+10"]
+        "https://gotaku1.com/download?id=MjA1ODA0&typesub=Animerulz Anime-SUB&title=Dr.+Stone%3A+New+World+Episode+10",
+        "https://gotaku1.com/download?id=MjA2MzA2&typesub=Animerulz SUB&title=Dr.+Stone%3A+New+World+Episode+11"]
         },
         "eng" : {
-            "no_epi" : 8,
+            "no_epi" : 9,
             "link" : "https://player.anikatsu.me/index.php?id=dr-stone-new-world-dub-episode-",
             "down_links" : 
             ["https://gotaku1.com/download?id=MjAzMTU2&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+1",
@@ -1487,7 +1488,8 @@
             "https://gotaku1.com/download?id=MjA0Njgz&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+5",
             "https://gotaku1.com/download?id=MjA0OTM3&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+6",
         "https://gotaku1.com/download?id=MjA1MzY5&typesub=Animerulz%20Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+7",
-        "https://gotaku1.com/download?id=MjA1ODEy&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+8"]
+        "https://gotaku1.com/download?id=MjA1ODEy&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+8",
+        "https://gotaku1.com/download?id=MjA2MzEz&typesub=Animerulz DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+9"]
         },
         "episodes_names" : ["New World Map", "Greed Equals Justice", "First Contact", "Eyes of Science", "Science Vessel Perseus", "Treasure Box", "Ray of Despair, Ray of Hope", "The Trump Card Aboard the Science Vessel", "Beauty Science", "Science Wars", "With This Fist, A Miracle"]
     },
@@ -2425,12 +2427,12 @@
         "jap" : {
             "no_epi" : 1,
             "link" : "https://player.anikatsu.me?id=black-clover-mahou-tei-no-ken-episode-",
-            "down_links" : ["https://gotaku1.com/download?id=MjA2MzY4&typesub=AniKatsu-DUB&title=Black+Clover%3A+Mahou+Tei+no+Ken+%28Dub%29+Episode+1"]
+            "down_links" : ["https://gotaku1.com/download?id=MjA2MzY4&typesub=Animerulz DUB&title=Black+Clover%3A+Mahou+Tei+no+Ken+%28Dub%29+Episode+1"]
         },
         "eng" : {
             "no_epi" : 1,
             "link" : "https://player.anikatsu.me?id=black-clover-mahou-tei-no-ken-dub-episode-",
-            "down_links" : ["https://gotaku1.com/download?id=MjA2MzY0&typesub=AniKatsu-SUB&title=Black+Clover%3A+Mahou+Tei+no+Ken+Episode+1"]
+            "down_links" : ["https://gotaku1.com/download?id=MjA2MzY0&typesub=Animerulz SUB&title=Black+Clover%3A+Mahou+Tei+no+Ken+Episode+1"]
         },
         "episodes_names" : ["Black Clover Sword of the Wizard King"]
     }
