@@ -93,12 +93,14 @@ button:hover{
 /* search section start */
 .icon{
     width: 40px;
-    height: 45px;
+    height: 42px;
     background-color: white;
     border:2px rgba(0,0,0,0.95) solid;
-    border-radius: 30px;
+    border-radius: 50%;
     padding-left: 4px;
-    position: absolute;
+    z-index: 5;
+    position:relative;
+    /* float:right; */
     /* margin-left: 95.5%; */
     /* float: inline-end; */
     /* display: none; */
@@ -171,16 +173,17 @@ button:hover{
   }
 }
 @media only screen and (max-width:800px){
-  .search-input input, .search-input .icon{
+  .search-input input{
     height: 40px;
   }
   .icon{
+    height: 37px;
     padding-left: 5px;
     width: 35px;
   }
   .svg-search-icon-1{
-    height: 30px;
-    padding: 0;
+    height: 26px;
+    padding: 1px 0 0 0;
   }
   .search-input .autocom-box{
     padding-top: 50px;
@@ -1185,4 +1188,12 @@ h1{
 }
 .recommendations{
   margin-top: 0;
+}
+
+
+/*for testing*/
+.search-input .input{
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
