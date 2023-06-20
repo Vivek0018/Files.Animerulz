@@ -81,9 +81,9 @@ short_anime_file.onload = function(){
             document.getElementsByName(epi_aud)[0].classList.add("active-aud");
         }
         catch{
-            // let anime_audios = document.getElementsByClassName("audio")[0];
-            // temp = "https://Animerulz.xyz/" + anime + "/Watch-Now/?ep=" + epi_num + "&aud=" + anime_audios.getAttribute("name") ;
-            // window.open(temp, "_self");
+            let anime_audios = document.getElementsByClassName("audio")[0];
+            temp = "https://Animerulz.xyz/" + anime + "/Watch-Now/?ep=" + epi_num + "&aud=" + anime_audios.getAttribute("name") ;
+            window.open(temp, "_self");
         }
         
         try{
