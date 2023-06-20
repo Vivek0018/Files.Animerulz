@@ -2438,6 +2438,10 @@
             "link" : "https://player.anikatsu.me?id=black-clover-mahou-tei-no-ken-dub-episode-",
             "down_links" : ["https://gotaku1.com/download?id=MjA2MzY0&typesub=Animerulz SUB&title=Black+Clover%3A+Mahou+Tei+no+Ken+Episode+1"]
         },
+         "hin" : {
+            "no_epi" : 1,
+            "links" : ["ao0xsej4yyxw"]
+        },
         "episodes_names" : ["Black Clover Sword of the Wizard King"]
     }
 }
