@@ -82,10 +82,10 @@ function previousSlide(){
     
             count = (count - 1) % 6;
         }else{
-            slide[4].setAttribute("class", "slide active-slide");
-            slideDot[4].setAttribute("class", "slide-dot active-slide-dot");
+            slide[5].setAttribute("class", "slide active-slide");
+            slideDot[5].setAttribute("class", "slide-dot active-slide-dot");
     
-            count = 4;
+            count = 5;
         } 
 }
 function nextSlide(){
