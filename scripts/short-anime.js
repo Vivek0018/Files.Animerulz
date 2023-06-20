@@ -81,9 +81,9 @@ short_anime_file.onload = function(){
             document.getElementsByName(epi_aud)[0].classList.add("active-aud");
         }
         catch{
-            let anime_audios = document.getElementsByClassName("audio")[0];
-            temp = "https://Animerulz.xyz/" + anime + "/Watch-Now/?ep=" + epi_num + "&aud=" + anime_audios.getAttribute("name") ;
-            window.open(temp, "_self");
+            // let anime_audios = document.getElementsByClassName("audio")[0];
+            // temp = "https://Animerulz.xyz/" + anime + "/Watch-Now/?ep=" + epi_num + "&aud=" + anime_audios.getAttribute("name") ;
+            // window.open(temp, "_self");
         }
         
         try{
@@ -124,12 +124,15 @@ short_anime_file.onload = function(){
             video_player.setAttribute("src", current_short_anime_data_video_link + epi_num);  
         } 
         else{
-            video_player.setAttribute("src", current_short_anime_data[epi_aud]["links"][epi_num - 1]);
+            video_player.setAttribute("src", "https://sbrapid.com/e/" + current_short_anime_data[epi_aud]["links"][epi_num - 1] + ".html");
         }     
         try{
-           document.getElementsByClassName("button-download-now")[0].setAttribute("onclick", "window.open('" + current_short_anime_data[epi_aud]["down_links"][epi_num - 1] + "')");
+            if(epi_aud == "jap" || epi_aud == "eng")
+                document.getElementsByClassName("button-download-now")[0].setAttribute("onclick", "window.open('" + current_long_anime_data[epi_aud]["down_links"][epi_num - 1] + "')");
+            else 
+                document.getElementsByClassName("button-download-now")[0].setAttribute("onclick", "window.open('https://sbrapid.com/d/" +  current_short_anime_data[epi_aud]["links"][epi_num - 1] + ".html')");
         }
-        catch{};   
+        catch{};
     }
 }
 
