@@ -184,6 +184,10 @@
             "https://gotaku1.com/download?id=MTg1MDM0&typesub=Animerulz Anime-DUB&title=Kimetsu+no+Yaiba%3A+Yuukaku-hen+%28Dub%29+Episode+10",
             "https://gotaku1.com/download?id=MTg1NTM1&typesub=Animerulz Anime-DUB&title=Kimetsu+no+Yaiba%3A+Yuukaku-hen+%28Dub%29+Episode+11"]
         },
+        "hin" : {
+            "no_epi" : 11,
+            "links" : ["48g5asrx8j39", "tkcbuhs765bi", "stpxufa4of4g", "3awx0p1gm9rj", "xkzg0im5e8ez", "2i46kir0qwly", "icnfh1dmi1na", "aq65j1hy8m1i", "d664qf7brd0j", "wdzkjkisqets", "xkbsu8gi37el"]
+        },
         "episodes_names" :[
             "Sound Hashira Tengen Uzui", 
             "Infiltrating the Entertainment District", 
@@ -499,7 +503,7 @@
             "New World"
         ]
     },
-    "Hell's Paradise" : {
+    "Hell"s Paradise" : {
         "jap" : {
             "no_epi" : 9,
             "link" : "https://player.anikatsu.me/index.php?id=jigokuraku-episode-",
