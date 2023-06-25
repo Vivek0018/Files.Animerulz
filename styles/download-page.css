@@ -169,14 +169,19 @@ html{
 .main-container-video-sec-2 .body .episode{
   text-align: center;
   padding: 10px 0px;
-  font-size: 17px;
-  width: 19%;
+  font-size: 14px;
+  width: 15%;
   margin: 5px 0.5%;
   /* background-color:rgba(0,0,0,0.3); */
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 5px;
   color: rgba(255, 255, 255, 0.8);
   max-height: 25px;
+}
+@media only screen and (max-width:450px){
+.main-container-video-sec-2 .body .episode{
+  padding: 8px 0px;
+}
 }
 .main-container-video-sec-2 .body .episode:hover{
   background-color: rgba(255, 255, 255, 0.6);
