@@ -203,7 +203,7 @@
     },
     "Demon Slayer Swordsmith Village Arc" :{
         "jap" : {
-            "no_epi" :  10,
+            "no_epi" :  11,
             "link" : "https://player.anikatsu.me/index.php?id=kimetsu-no-yaiba-katanakaji-no-sato-hen-episode-",
             "down_links" : 
             ["https://gotaku1.com/download?id=MjAyNDc0&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+1",
@@ -215,13 +215,17 @@
             "https://gotaku1.com/download?id=MjA0NzY2&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+7",
             "https://gotaku1.com/download?id=MjA1MDkw&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+8",
             "https://gotaku1.com/download?id=MjA1NTIz&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+9",
-            "https://gotaku1.com/download?id=MjA2MDE5&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+10"]
+            "https://gotaku1.com/download?id=MjA2MDE5&typesub=Animerulz Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+10",
+            "https://gotaku1.com/download?id=MjA2NDQw&typesub=Animerulz%20Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+11"]
         },
         "eng" : {
-            "no_epi" : 2,
+            "no_epi" : 4,
             "link" : "https://player.anikatsu.me/index.php?id=demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-dub-episode-",
-            "down_links" : ["https://gotaku1.com/download?id=MjA1MTAx&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+1",
-                            "https://gotaku1.com/download?id=MjA1NTI2&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+2o"]
+            "down_links" : [
+                "https://gotaku1.com/download?id=MjA1MTAx&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+1",
+                "https://gotaku1.com/download?id=MjA1NTI2&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+2",
+                "https://gotaku1.com/download?id=MjA2MDI1&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+3",
+                "https://gotaku1.com/download?id=MjA2NDQz&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+4"]
         },
         "episodes_names" :[
             "Someones Dream",
