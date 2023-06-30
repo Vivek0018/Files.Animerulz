@@ -18,25 +18,36 @@ function setGradientDivisionHeights(commonHeight){
   for(let i = 0; i < sliderImage.length ; i ++){
     sliderImage[i].style.height  = commonHeight + 5 + "px";
   }
-  let gradientDiv1 = document.getElementsByClassName("gradient-division-1")[0];
-  let gradientDiv2 = document.getElementsByClassName("gradient-division-2")[0];
-  gradientDiv1.style.height = commonHeight + 5 + "px"; 
-  gradientDiv2.style.height = commonHeight + 5 + "px"; 
+  // let gradientDiv1 = document.getElementsByClassName("gradient-division-1")[0];
+  // let gradientDiv2 = document.getElementsByClassName("gradient-division-2")[0];
+  // gradientDiv1.style.height = commonHeight + 5 + "px"; 
+  // gradientDiv2.style.height = commonHeight + 5 + "px"; 
   if(window.innerWidth < 1100)
       document.getElementsByClassName("slide-change-btns")[0].style.marginTop = commonHeight + "px" ;
   else
       document.getElementsByClassName("slide-change-btns")[0].style.marginTop = commonHeight - 80 + "px" ;
-  if(window.innerWidth <= 1500){
-    if(window.innerWidth >= 1100)
-      document.getElementsByClassName("bottom-container")[0].style.paddingTop = commonHeight + "px";
-    else 
-    document.getElementsByClassName("bottom-container")[0].style.paddingTop = commonHeight + 100 + "px";
-  }
+  // if(window.innerWidth <= 1500){
+  //   if(window.innerWidth >= 1100)
+  //     document.getElementsByClassName("bottom-container")[0].style.paddingTop = commonHeight + "px";
+  //   else 
+  //   document.getElementsByClassName("bottom-container")[0].style.paddingTop = commonHeight + 100 + "px";
+  // }
 }
 
+let slide_containers = document.getElementsByClassName("slide-container");
+let slide_container_height;
+slide_container_height = slide_containers[0].offsetHeight;
+let slider_height = document.getElementsByClassName("slider")[0].offsetHeight;
+for(let i = 0; i < slide_containers.length ; i ++) {
+    if(window.innerWidth > 650)
+      slide_containers[i].style.paddingTop = (slider_height - slide_container_height) + "px";
+    else 
+    slide_containers[i].style.paddingTop = (slider_height - slide_container_height - 80) + "px";
+// console.log(slide_container.offsetHeight);
+}
 
 const slide = document.getElementsByClassName("slide");
-var activeSlide = document.querySelector(".gradient-division-2");
+var activeSlide = document.querySelector(".active-slide");
 
 
 const slideDot = document.getElementsByClassName("slide-dot");
@@ -74,14 +85,17 @@ function changeSlideByBtn(y){
 
 
 function previousSlide(){
+  let temp = '@keyframes slideIn{0%{opacity:0.3;clip-path: polygon(0 0, 26% 0, 26% 100%, 0 100%, 0 47%);}25%{opacity:0.5;clip-path: polygon(0 0, 50% 0, 48% 100%, 0 100%, 0 47%);}50%{opacity:0.8;clip-path: polygon(0 0, 67% 0, 64% 100%, 0 100%, 0 47%);}75%{opacity:0.9;clip-path: polygon(0 0, 82% 0, 81% 100%, 0 100%, 0 47%);}100%{opacity:1;}}';
     slide[count].setAttribute("class", "slide");
         slideDot[count].setAttribute("class", "slide-dot");
         if(count != 0){
+            slide[count-1].setAttribute("style", temp);
             slide[count-1].setAttribute("class", "slide active-slide");
             slideDot[count-1].setAttribute("class", "slide-dot active-slide-dot");
     
             count = (count - 1) % 6;
         }else{
+            slide[5].setAttribute("style", temp);
             slide[5].setAttribute("class", "slide active-slide");
             slideDot[5].setAttribute("class", "slide-dot active-slide-dot");
     
@@ -121,4 +135,3 @@ function nextSlide(){
         previousSlide();
       }
     }
-
