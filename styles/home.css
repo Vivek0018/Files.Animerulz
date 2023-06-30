@@ -27,9 +27,10 @@ a{
   all: unset;
 }
 .slide-container{
-  position: absolute;
+  /* position: absolute; */
   z-index: 1;
-  margin-top: -340px;
+  /* margin-top: 300px; */
+  bottom: 0;
 }
 .home-main-info{
   margin: 0 10px;
@@ -50,11 +51,11 @@ a{
   margin-left: auto;
   margin-right: auto;
 }
-@media only screen and (min-width:1500px){
+/* @media only screen and (min-width:1500px){
   .bottom-container{
     padding-top: 670px;
   }
-}
+} */
 .bottom-container h2{
   color: #faa300;
 }
@@ -85,7 +86,7 @@ a{
   background-color: #faa300;
   /* padding: 5px 10px; */
   /* width: 0px; */
-  padding: 0 10px;
+  padding: 0 8px;
   height: 30px;
   font-size: 20px;
   text-align: center;
@@ -174,45 +175,81 @@ a{
 /* slider division start */
     .slider{
       margin-top: 0px;
-      /* height: 650p */
+      max-height: 650px;
+      min-height: 300px;
+      height: calc(100vw / 2.25);
       touch-action: pan-y;
+      /* position: absolute; */
     }
     .slide{
       width: 100vw;
+      height: 100%;
       display: none; 
       background-color: none;
-      background-size: 100%;
-      background-repeat: no-repeat;
       /* background-position-y:center ; */
       background-position-x: center;
-      background-image: linear-gradient(to right,rgba(0,0,0,0.7), rgba(0,0,0,0.2));
       /* height: 600px; */
-      position: absolute;
-    }
-    .slide img{
-      width: 100%;
       /* position: absolute; */
-      height: 650px;
     }
     .gradient-division-1,.gradient-division-2{
+      /* z-index: 2; */
       position: absolute;
+      /* display: none; */
       height: 650px;
       width: 100%;
-    }
-    .gradient-division-1{
-      background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.9) 100%);
-    }
-    .gradient-division-2{
-      background: linear-gradient(0deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.2) 40%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.2) 80%,rgba(0,0,0,0.9) 100%);
     }
     .active-slide{
       display: block;
-      animation: slideIn 0.1s;
-      animation-direction: alternate;
+      /* position: absolute; */
+      /* transition: display 0.5s; */
+      animation: slideIn 0.1s forwards;
+      /* z-index:3; */
+      /* animation-direction: alternate; */
       /* opacity: 1; */
     }
     .active-slide::-webkit-scrollbar{
       display: none;
+    }
+    #slide-1{
+      background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%),url("https://vivek0018.github.io/Files.Animerulz/images/BlackClover.webp") no-repeat center;
+      background-size: cover;
+    }
+    #slide-2{
+      background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%),  url("https://vivek0018.github.io/Files.Animerulz/images/OnePiece.webp") no-repeat center;
+      background-size: cover;
+    }
+    #slide-3{
+      background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%), url("https://vivek0018.github.io/Files.Animerulz/images/HellsParadise.webp") no-repeat center;
+      background-size: cover;
+    }
+    #slide-4{
+      background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%), url("https://vivek0018.github.io/Files.Animerulz/images/DemonSlayer.webp") no-repeat center;
+      background-size: cover;
+    }
+    #slide-5{
+      background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%), url("https://vivek0018.github.io/Files.Animerulz/images/Naruto.webp") no-repeat center;
+      background-size: cover;
+    }
+    #slide-6{
+      background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%), url("https://vivek0018.github.io/Files.Animerulz/images/DrStoneNewWorld.webp") no-repeat center;
+      background-size: cover;
+    }
+    @keyframes slideIn {
+      0%{
+        opacity: 0.3;
+        clip-path: polygon(77% 0, 100% 1%, 100% 100%, 77% 100%, 77% 48%);      }
+      25%{
+        opacity: 0.5;
+        clip-path: polygon(62% 0, 100% 1%, 100% 100%, 63% 100%, 62% 46%);      }
+      50%{
+        opacity: 0.8;
+        clip-path: polygon(42% 0, 100% 1%, 100% 100%, 41% 100%, 41% 45%);      }
+      75%{
+        opacity: 0.9;
+        clip-path: polygon(19% 0, 100% 1%, 100% 100%, 18% 100%, 18% 45%);      }
+      100%{
+        opacity: 1;
+      }
     }
     /* @keyframes slideIn{
       0%{
@@ -288,13 +325,15 @@ a{
       display: flex;
       flex-direction: column;
       position: absolute;
+      z-index: 2;
       margin-top: 80px;
       margin-left: 93%;
     }
     .slide-change-btns{
       position: absolute;
+      z-index: 2;
       margin-left: 93%;
-      margin-top: 530px;
+      margin-top: 550px;
     }
     .slide-change-btns .btn{
       padding-top: 5px;
@@ -337,7 +376,7 @@ a{
         padding: 0 10px;
     font-size: 45px;
     display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 1 ;
     -webkit-box-orient: vertical;
     overflow: hidden;
     }
@@ -365,7 +404,10 @@ a{
     font-size: 16px;
     }
     .slider .slide-container{
+      /* position: absolute; */
     padding: 10px 20px;
+    /* padding-top: 320px; */
+    z-index: 2;
     }
     .slider .slide-container .slide-btns{
     padding: 20px;
@@ -425,16 +467,19 @@ a{
     margin-left: 1450px;
     }
     }
-    @media only screen and (max-width:1100px){
+    /* @media only screen and (max-width:1100px){
     .slide,.gradient-division-1,.gradient-division-2{
     margin-top:100px;
     }
-    }
+    } */
     @media only screen and (max-width:1000px){
     .slider .slide-anime-des{
     font-size: 15px;
     -webkit-line-clamp: 3;
     height: 47px;
+    }
+    .slide-change-btns{
+      display: none;
     }
     }
     @media only screen and (max-width:900px){
@@ -446,11 +491,14 @@ a{
     .slider .slide-anime-des{
     display: none;
     }
-    .slide-container{
+    /* .slide-container{
     margin-top: -250px;
-    }
+    } */
     }
     @media only screen and (max-width:650px){
+    .slider{
+      padding-top: 80px;
+    }
     .slider-dots .slide-dot{
     height: 12px;
     width: 12px;
@@ -471,9 +519,9 @@ a{
     .slider .slide-container{
     padding:10px;
     }
-    .slide-container{
+    /* .slide-container{
     margin-top: -210px;
-    }
+    } */
     }
     @media only screen and (max-width:550px){
     .slide-change-btns .btn{
@@ -505,9 +553,9 @@ a{
     .slider .slide-container .slide-btns{
     padding: 10px;
     }
-    .slide-container{
+    /* .slide-container{
     margin-top: -180px;
-    }
+    } */
     .slider .slide-container .slide-btn{
     height: 25px;
     font-size: 12px;
