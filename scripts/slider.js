@@ -47,7 +47,7 @@ for(let i = 0; i < slide_containers.length ; i ++) {
 }
 
 const slide = document.getElementsByClassName("slide");
-var activeSlide = document.querySelector(".active-slide");
+var activeSlide = document.querySelector(".slider");
 
 
 const slideDot = document.getElementsByClassName("slide-dot");
@@ -83,22 +83,19 @@ function changeSlideByBtn(y){
 }
 }
 
-
 function previousSlide(){
-  let temp = '@keyframes slideIn{0%{opacity:0.3;clip-path: polygon(0 0, 26% 0, 26% 100%, 0 100%, 0 47%);}25%{opacity:0.5;clip-path: polygon(0 0, 50% 0, 48% 100%, 0 100%, 0 47%);}50%{opacity:0.8;clip-path: polygon(0 0, 67% 0, 64% 100%, 0 100%, 0 47%);}75%{opacity:0.9;clip-path: polygon(0 0, 82% 0, 81% 100%, 0 100%, 0 47%);}100%{opacity:1;}}';
+  // let temp = '@keyframes slideIn{0%{opacity:0.3;clip-path: polygon(0 0, 26% 0, 26% 100%, 0 100%, 0 47%);}25%{opacity:0.5;clip-path: polygon(0 0, 50% 0, 48% 100%, 0 100%, 0 47%);}50%{opacity:0.8;clip-path: polygon(0 0, 67% 0, 64% 100%, 0 100%, 0 47%);}75%{opacity:0.9;clip-path: polygon(0 0, 82% 0, 81% 100%, 0 100%, 0 47%);}100%{opacity:1;}}';
     slide[count].setAttribute("class", "slide");
         slideDot[count].setAttribute("class", "slide-dot");
         if(count != 0){
-            slide[count-1].setAttribute("style", temp);
+            // slide[count-1].setAttribute("style", temp);
             slide[count-1].setAttribute("class", "slide active-slide");
             slideDot[count-1].setAttribute("class", "slide-dot active-slide-dot");
-    
             count = (count - 1) % 6;
         }else{
-            slide[5].setAttribute("style", temp);
+            // slide[5].setAttribute("style", temp);
             slide[5].setAttribute("class", "slide active-slide");
             slideDot[5].setAttribute("class", "slide-dot active-slide-dot");
-    
             count = 5;
         } 
 }
@@ -129,9 +126,9 @@ function nextSlide(){
     }
 
     function handleSwipe() {
-      if (touchStartX - touchEndX > 50){
+      if ((touchStartX - touchEndX) > 50){
         nextSlide();
-      } else if (touchEndX - touchStartX > 50) {
+      } else if ((touchEndX - touchStartX) > 50) {
         previousSlide();
       }
     }
