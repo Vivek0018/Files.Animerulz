@@ -219,13 +219,14 @@
             "https://gotaku1.com/download?id=MjA2NDQw&typesub=Animerulz%20Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+11"]
         },
         "eng" : {
-            "no_epi" : 4,
+            "no_epi" : 5,
             "link" : "https://player.anikatsu.me/index.php?id=demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-dub-episode-",
             "down_links" : [
                 "https://gotaku1.com/download?id=MjA1MTAx&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+1",
                 "https://gotaku1.com/download?id=MjA1NTI2&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+2",
                 "https://gotaku1.com/download?id=MjA2MDI1&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+3",
-                "https://gotaku1.com/download?id=MjA2NDQz&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+4"]
+                "https://gotaku1.com/download?id=MjA2NDQz&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+4",
+                "https://gotaku1.com/download?id=MjA2OTk3&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+5"]
         },
         "episodes_names" :[
             "Someones Dream",
@@ -549,7 +550,10 @@
             "Heart and Reason",
             "2023Flowers and Offerings",
             "Student and Master",
-            "Gods and People"
+            "Gods and People",
+            "Yin and Yang",
+            "Weak and Strong",
+            "Umbrella and Ink"
         ]
     },
     "Attack on Titan" : {
@@ -1223,7 +1227,7 @@
     },
     "Mashle" : {
         "jap" : {
-            "no_epi" : 8,
+            "no_epi" : 12,
             "link" : "https://player.anikatsu.me/index.php?id=Mashle-episode-",
             "down_links" : 
             ["https://gotaku1.com/download?id=MjAyMzcz&typesub=Animerulz Anime-SUB&title=Mashle+Episode+1",
@@ -1233,19 +1237,27 @@
             "https://gotaku1.com/download?id=MjAzOTk2&typesub=Animerulz Anime-SUB&title=Mashle+Episode+5",
             "https://gotaku1.com/download?id=MjA0NDE1&typesub=Animerulz Anime-SUB&title=Mashle+Episode+6",
             "https://gotaku1.com/download?id=MjA0OTc3&typesub=Animerulz Anime-SUB&title=Mashle+Episode+7",
-        "https://gotaku1.com/download?id=MjA1NDIx&typesub=Animerulz%20Anime-SUB&title=Mashle+Episode+8"]
+            "https://gotaku1.com/download?id=MjA1NDIx&typesub=Animerulz%20Anime-SUB&title=Mashle+Episode+8",
+            "https://gotaku1.com/download?id=MjA1ODY5&typesub=Animerulz%20Anime-SUB&title=Mashle+Episode+9",
+            "https://gotaku1.com/download?id=MjA2Mzcx&typesub=Animerulz%20Anime-SUB&title=Mashle+Episode+10",
+            "https://gotaku1.com/download?id=MjA2NzQ2&typesub=Animerulz%20Anime-SUB&title=Mashle+Episode+11",
+            "https://gotaku1.com/download?id=MjA3MjQ1&typesub=Animerulz%20Anime-SUB&title=Mashle+Episode+12"]
         },
         "eng" : {
-            "no_epi" : 2,
+            "no_epi" : 6,
             "link" : "https://player.anikatsu.me/index.php?id=Mashle-dub-episode-",
             "down_links" : ["https://gotaku1.com/download?id=MjA1MDEy&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+1",
-        "https://gotaku1.com/download?id=MjA1NDMx&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+2"]
+                            "https://gotaku1.com/download?id=MjA1NDMx&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+2",
+                            "https://gotaku1.com/download?id=MjA1ODc5&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+3",
+                            "https://gotaku1.com/download?id=MjA2Mzc5&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+4",   
+                            "https://gotaku1.com/download?id=MjA2NzU0&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+5",
+                            "https://gotaku1.com/download?id=MjA3MjQ2&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+6"]
         },
-        "episodes_names" : ["Mash Burnedead and the Body of the Gods", "Mash Burnedead and the Mysterious Maze", "Mash Burnedead and the Baleful Bully", "Mash Burnedead and the Challenging Magic User", "Mash Burnedead and the Unpopular Classmate", "Mash Burnedead and the Magic of Iron", "Mash Burnedead and the Mysterious Letter", "Mash Burnedead and the Puppet Master","Mash Burnedead and the Puppet Master", "Mash Burnedead and the Wolves of Magic", "Mash Burnedead and the Accelerated Battle"]
+        "episodes_names" : ["Mash Burnedead and the Body of the Gods", "Mash Burnedead and the Mysterious Maze", "Mash Burnedead and the Baleful Bully", "Mash Burnedead and the Challenging Magic User", "Mash Burnedead and the Unpopular Classmate", "Mash Burnedead and the Magic of Iron", "Mash Burnedead and the Mysterious Letter", "Mash Burnedead and the Puppet Master","Mash Burnedead and the Puppet Master", "Mash Burnedead and the Wolves of Magic", "Mash Burnedead and the Accelerated Battle", "Mash Burndead and the Divine Visionary", "Mash Burndead and the Survival of the Fittest", "Mash Burnedead and the Magic Mirror"]
     },
     "My Star" : {
         "jap" : {
-            "no_epi" : 8,
+            "no_epi" : 11,
             "link" : "https://player.anikatsu.me/index.php?id=oshi-no-ko-episode-",
             "down_links" : 
             ["https://gotaku1.com/download?id=MjAyNjQ3&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+1",
@@ -1255,16 +1267,22 @@
             "https://gotaku1.com/download?id=MjA0Mjc4&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+5",
             "https://gotaku1.com/download?id=MjA0NjQ4&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+6",
             "https://gotaku1.com/download?id=MjA0ODcx&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+7",
-            "https://gotaku1.com/download?id=MjA1NzQ4&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+8"]
+            "https://gotaku1.com/download?id=MjA1NzQ4&typesub=Animerulz Anime-SUB&title=%22Oshi+no+Ko%22+Episode+8",
+            "https://gotaku1.com/download?id=MjA2MjUy&typesub=Animerulz%20Anime-SUB&title=%22Oshi+no+Ko%22+Episode+9",
+            "https://gotaku1.com/download?id=MjA2NjI2&typesub=Animerulz%20Anime-SUB&title=%22Oshi+no+Ko%22+Episode+10",
+            "https://gotaku1.com/download?id=MjA3MDc0&typesub=Animerulz%20Anime-SUB&title=%22Oshi+no+Ko%22+Episode+11"]
         },
         "eng" : {
-            "no_epi" : 3,
+            "no_epi" : 6,
             "link" : "https://player.anikatsu.me/index.php?id=oshi-no-ko-dub-episode-",
             "down_links" : ["https://gotaku1.com/download?id=MjA0ODc1&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+1",
                             "https://gotaku1.com/download?id=MjA1MzIx&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+2",
-                            "https://gotaku1.com/download?id=MjA1NzUx&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+3"]
+                            "https://gotaku1.com/download?id=MjA1NzUx&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+3",
+                            "https://gotaku1.com/download?id=MjA2MjU1&typesub=Animerulz%20Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+4",
+                            "https://gotaku1.com/download?id=MjA2NjM2&typesub=Animerulz%20Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+5",
+                            "https://gotaku1.com/download?id=MjA3MDc2&typesub=Animerulz%20Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+6"]
         },
-        "episodes_names" : ["Mother and Children", "Third Option", "Manga-Based TV Drama", "Actors", "Reality Dating Show", "Egosurfing", "Buzz", "First time"]
+        "episodes_names" : ["Mother and Children", "Third Option", "Manga-Based TV Drama", "Actors", "Reality Dating Show", "Egosurfing", "Buzz", "First time", "B Komachi", "Pressure", "Idol"]
     },
     "Blue Lock" : {
         "jap" : {
@@ -1491,7 +1509,7 @@
         "https://gotaku1.com/download?id=MjA2MzA2&typesub=Animerulz SUB&title=Dr.+Stone%3A+New+World+Episode+11"]
         },
         "eng" : {
-            "no_epi" : 9,
+            "no_epi" : 11,
             "link" : "https://player.anikatsu.me/index.php?id=dr-stone-new-world-dub-episode-",
             "down_links" : 
             ["https://gotaku1.com/download?id=MjAzMTU2&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+1",
@@ -1500,9 +1518,11 @@
             "https://gotaku1.com/download?id=MjA0MzU3&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+4",
             "https://gotaku1.com/download?id=MjA0Njgz&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+5",
             "https://gotaku1.com/download?id=MjA0OTM3&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+6",
-        "https://gotaku1.com/download?id=MjA1MzY5&typesub=Animerulz%20Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+7",
-        "https://gotaku1.com/download?id=MjA1ODEy&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+8",
-        "https://gotaku1.com/download?id=MjA2MzEz&typesub=Animerulz DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+9"]
+            "https://gotaku1.com/download?id=MjA1MzY5&typesub=Animerulz%20Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+7",
+            "https://gotaku1.com/download?id=MjA1ODEy&typesub=Animerulz Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+8",
+            "https://gotaku1.com/download?id=MjA2MzEz&typesub=Animerulz DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+9",
+            "https://gotaku1.com/download?id=MjA2Njg4&typesub=Animerulz%20Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+10",
+            "https://gotaku1.com/download?id=MjA3MTc1&typesub=Animerulz%20Anime-DUB&title=Dr.+Stone%3A+New+World+%28Dub%29+Episode+11"]
         },
         "episodes_names" : ["New World Map", "Greed Equals Justice", "First Contact", "Eyes of Science", "Science Vessel Perseus", "Treasure Box", "Ray of Despair, Ray of Hope", "The Trump Card Aboard the Science Vessel", "Beauty Science", "Science Wars", "With This Fist, A Miracle"]
     },
@@ -1698,7 +1718,7 @@
             "https://gotaku1.com/download?id=MjA2NTAw&typesub=Animerulz Anime-SUB&title=Vinland+Saga+Season+2+Episode+24"]
         },
         "eng" : {
-            "no_epi" : 22,
+            "no_epi" : 23,
             "link" : "https://player.anikatsu.me/index.php?id=vinland-saga-season-2-dub-episode-",
             "down_links" : 
             ["https://gotaku1.com/download?id=MTk4MDE3&typesub=Animerulz Anime-DUB&title=Vinland+Saga+Season+2+%28Dub%29+Episode+1",
@@ -1722,7 +1742,8 @@
             "https://gotaku1.com/download?id=MjA1MTUz&typesub=Animerulz Anime-DUB&title=Vinland+Saga+Season+2+%28Dub%29+Episode+19",
             "https://gotaku1.com/download?id=MjA1NjAx&typesub=Animerulz Anime-DUB&title=Vinland+Saga+Season+2+%28Dub%29+Episode+20",
             "https://gotaku1.com/download?id=MjA2MTAx&typesub=Animerulz Anime-DUB&title=Vinland+Saga+Season+2+%28Dub%29+Episode+21",
-            "https://gotaku1.com/download?id=MjA2NTA1&typesub=Animerulz Anime-DUB&title=Vinland+Saga+Season+2+%28Dub%29+Episode+22"]
+            "https://gotaku1.com/download?id=MjA2NTA1&typesub=Animerulz Anime-DUB&title=Vinland+Saga+Season+2+%28Dub%29+Episode+22",
+            "https://gotaku1.com/download?id=MjA2OTU4&typesub=Animerulz%20Anime-DUB&title=Vinland+Saga+Season+2+%28Dub%29+Episode+23"]
         },
         "episodes_names" : ["Slave", "Ketils Farm", "Snake", "Awakening", "The Path of Blood", "I Want a Horse", "Iron Fist Ketil", "An Empty Man", "Oath", "Cursed Head", "The King and the Sword", "For the Love That Was Lost", "Dark Clouds", "Freedom", "Storm", "Cause", "Way Home", "The First Measure", "War at Ketils Farm", "Pain", "Courage", "Emperor of the Rebelion", "Two paths ", "Home Town"]
     },
