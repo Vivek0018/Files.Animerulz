@@ -176,7 +176,7 @@ a{
     .slider{
       margin-top: 0px;
       max-height: 650px;
-      min-height: 300px;
+      min-height: 280px;
       height: calc(100vw / 2.25);
       touch-action: pan-y;
       /* position: absolute; */
