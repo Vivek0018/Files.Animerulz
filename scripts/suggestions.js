@@ -36,7 +36,7 @@ let suggestions = [
     "Dragon Ball",
     "Dr Stone",
     "Dragon Ball GT",
-    "Dragon Ball Super Movie Broly",
+    "Dragon Ball Super Broly",
     "Dr Stone: Stone Wars",
     "Dr Stone: Ryuusui",
     "Dr Stone: Stone Wars Eve of the Battle Special Feature",
