@@ -1,19 +1,22 @@
 function nextDay(x){
-    var now = new Date();  
+    var now = new Date(); 
+    let present = new Date(); 
     var hours = 10;
     var minutes = 30;
-    var seconds = 00;
+    var seconds = 0;
     now.setHours(hours);
     now.setMinutes(minutes);
     now.setSeconds(seconds);
-    now.setDate(now.getDate() + (x+(7-now.getDay())) % 7);
+    now.setDate(now.getDate() + (x + (7 - now.getDay())) % 7);
+    if(now.getDate == present.getDate)
+        now.setDate(now.getDate() + 7);
     return now;
 }
 function prevDay(x){
     var now = new Date();  
     var hours = 10;
     var minutes = 30;
-    var seconds = 00;
+    var seconds = 0;
     now.setHours(hours);
     now.setMinutes(minutes);
     now.setSeconds(seconds);
