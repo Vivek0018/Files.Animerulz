@@ -22,10 +22,10 @@ function setGradientDivisionHeights(commonHeight){
   // let gradientDiv2 = document.getElementsByClassName("gradient-division-2")[0];
   // gradientDiv1.style.height = commonHeight + 5 + "px"; 
   // gradientDiv2.style.height = commonHeight + 5 + "px"; 
-  if(window.innerWidth < 1100)
-      document.getElementsByClassName("slide-change-btns")[0].style.marginTop = commonHeight + "px" ;
-  else
-      document.getElementsByClassName("slide-change-btns")[0].style.marginTop = commonHeight - 80 + "px" ;
+  // if(window.innerWidth < 1100)
+  //     document.getElementsByClassName("slide-change-btns")[0].style.marginTop = commonHeight - 100 + "px" ;
+  // else
+  document.getElementsByClassName("slide-change-btns")[0].style.marginTop = commonHeight - 100 + "px" ;
   // if(window.innerWidth <= 1500){
   //   if(window.innerWidth >= 1100)
   //     document.getElementsByClassName("bottom-container")[0].style.paddingTop = commonHeight + "px";
