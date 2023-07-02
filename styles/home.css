@@ -200,6 +200,7 @@ a{
     }
     .active-slide{
       display: block;
+      transition: all 1s;
       /* position: absolute; */
       /* transition: display 0.5s; */
       animation: slideIn 0.1s forwards;
@@ -565,11 +566,16 @@ a{
     height: 13px;
     }
     .slider .slide-container .svg-icon-on-slide{
-      margin-top: 0px;
-    height: 20px;
+      margin-top: 1px;
+      height: 20px;
     }
     .slider .slide-container .details-btn:hover > .svg-icon-on-slide{
-    height: 25px;
+      margin-top: 0px;
+      height: 23px;
+    }
+    .slider .slide-container .details-btn:hover{
+      padding-right: 22px;
+      padding-left: 8px;
     }
     .slider .slide-container .details-btn{
     padding-right: 20px;
