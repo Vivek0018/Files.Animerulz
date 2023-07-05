@@ -211,31 +211,31 @@ a{
     .active-slide::-webkit-scrollbar{
       display: none;
     }
+/*     #slide-1{
+      background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%),url("https://vivek0018.github.io/Files.Animerulz/images/BlackClover.webp") no-repeat center;
+      background-size: cover;
+    } */
     #slide-1{
       background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%),url("https://vivek0018.github.io/Files.Animerulz/images/BlackClover.webp") no-repeat center;
       background-size: cover;
     }
     #slide-2{
-      background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%),url("https://vivek0018.github.io/Files.Animerulz/images/BlackClover.webp") no-repeat center;
-      background-size: cover;
-    }
-    #slide-3{
       background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%),  url("https://vivek0018.github.io/Files.Animerulz/images/OnePiece.webp") no-repeat center;
       background-size: cover;
     }
-    #slide-4{
+    #slide-3{
       background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%), url("https://vivek0018.github.io/Files.Animerulz/images/HellsParadise.webp") no-repeat center;
       background-size: cover;
     }
-    #slide-5{
+    #slide-4{
       background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%), url("https://vivek0018.github.io/Files.Animerulz/images/DemonSlayer.webp") no-repeat center;
       background-size: cover;
     }
-    #slide-6{
+    #slide-5{
       background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%), url("https://vivek0018.github.io/Files.Animerulz/images/Naruto.webp") no-repeat center;
       background-size: cover;
     }
-    #slide-7{
+    #slide-6{
       background: linear-gradient(90deg,rgba(0,0,0,0.9) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,0.2) 60%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.8) 100%), url("https://vivek0018.github.io/Files.Animerulz/images/DrStoneNewWorld.webp") no-repeat center;
       background-size: cover;
     }
