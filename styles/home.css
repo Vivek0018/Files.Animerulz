@@ -540,9 +540,15 @@ a{
     }
     }
     @media only screen and (max-width:500px){
+      .home-main-info h1{
+        font-size: 11px;
+      }
     .slide-change-btns .btn{
     display: none;
     }
+    .slider .slide-container h2{
+      font-size: 23px;
+      }
     .slider .slide-more-info ul{
     margin-top: 0;
     margin-bottom: 0;
