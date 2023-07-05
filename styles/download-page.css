@@ -383,9 +383,9 @@ html{
 .anime-in-rec-div{
   background-color: rgba(0, 0, 0, 0.85);
 }
-.anime-rec-div h2{
-  font-size: 20px;
-}
+  /* .anime-rec-div h2{
+    font-size: 20px;
+  } */
 
 /* Responsive Design Start */
 /* for Video player division */
