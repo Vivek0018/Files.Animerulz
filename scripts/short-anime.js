@@ -128,7 +128,7 @@ short_anime_file.onload = function(){
         }     
         try{
             if(epi_aud == "jap" || epi_aud == "eng")
-                document.getElementsByClassName("button-download-now")[0].setAttribute("onclick", "window.open('" + current_long_anime_data[epi_aud]["down_links"][epi_num - 1] + "')");
+                document.getElementsByClassName("button-download-now")[0].setAttribute("onclick", "window.open('" + current_short_anime_data[epi_aud]["down_links"][epi_num - 1] + "')");
             else 
                 document.getElementsByClassName("button-download-now")[0].setAttribute("onclick", "window.open('https://sbrapid.com/d/" +  current_short_anime_data[epi_aud]["links"][epi_num - 1] + ".html')");
         }
