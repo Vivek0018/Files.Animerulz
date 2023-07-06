@@ -1,6 +1,6 @@
 const slider = document.getElementsByClassName("slider")[0];
 let slide_count = 1;
-let number_of_anime_in_slider = 6;
+let number_of_anime_in_slider = 7;
 
   let commonHeight = window.innerWidth / 2.25;
   if(commonHeight > 666){
@@ -62,7 +62,7 @@ function callChangeslide(){
 function changeSlide(){
     slide[count].setAttribute("class", "slide");
     slideDot[count].setAttribute("class", "slide-dot");
-    count = (count + 1 ) % 6;
+    count = (count + 1 ) % 7;
     slide[count].setAttribute("class", "slide active-slide");
     slideDot[count].setAttribute("class", "slide-dot active-slide-dot");
     
@@ -73,7 +73,7 @@ function changeSlideByDot(x){
     slide[x-1].setAttribute("class", "slide active-slide");
     slideDot[x-1].setAttribute("class", "slide-dot active-slide-dot");
     
-    count = (x-1) % 6;
+    count = (x-1) % 7;
 }
 function changeSlideByBtn(y){
     if(y == 1 ){
@@ -91,21 +91,21 @@ function previousSlide(){
             // slide[count-1].setAttribute("style", temp);
             slide[count-1].setAttribute("class", "slide active-slide");
             slideDot[count-1].setAttribute("class", "slide-dot active-slide-dot");
-            count = (count - 1) % 6;
+            count = (count - 1) % 7;
         }else{
             // slide[5].setAttribute("style", temp);
-            slide[5].setAttribute("class", "slide active-slide");
-            slideDot[5].setAttribute("class", "slide-dot active-slide-dot");
-            count = 5;
+            slide[6].setAttribute("class", "slide active-slide");
+            slideDot[6].setAttribute("class", "slide-dot active-slide-dot");
+            count = 6;
         } 
 }
 function nextSlide(){
   slide[count].setAttribute("class", "slide");
         slideDot[count].setAttribute("class", "slide-dot");
-        slide[(count+1) % 6].setAttribute("class", "slide active-slide");
-        slideDot[(count+1) % 6].setAttribute("class", "slide-dot active-slide-dot");
+        slide[(count+1) % 7].setAttribute("class", "slide active-slide");
+        slideDot[(count+1) % 7].setAttribute("class", "slide-dot active-slide-dot");
 
-        count = (count + 1) % 6;
+        count = (count + 1) % 7;
 }
 
 
