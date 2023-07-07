@@ -1106,6 +1106,11 @@ h1{
     width: 87.7%;
   }
 }
+@media only screen and (max-width:366px) and (min-width:350px){
+  .button-read-manga{
+    margin-top: 5px;
+  }
+}
 @media only screen and (max-width:360px){
   .search-input input{
     padding-left: 13%;
