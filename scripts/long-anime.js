@@ -189,4 +189,7 @@ function scrollToDiv() {
   
 let episode_div;
 episode_div = document.querySelector(".main-container-video-sec-2 .body .body-cont .content");
-episode_div.setAttribute("style", "grid-template-columns: repeat(auto-fit, 55px);");
+if(screen.width >= 450)
+    episode_div.setAttribute("style", "grid-template-columns: repeat(auto-fit, 55px);");
+else
+    episode_div.setAttribute("style", "grid-template-columns: repeat(auto-fit, minmax(30px, 15%));");
