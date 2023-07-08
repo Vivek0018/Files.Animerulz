@@ -161,6 +161,12 @@ html{
   margin-right: auto;
   /* grid-row: repeat(4, 40px); */
 }
+@media only screen and (max-width : 450px){
+.main-container-video-sec-2 .body .body-cont .content{
+    grid-template-columns: repeat(auto, 45px);
+    justify-content: space-evenly;
+  }
+}
 .main-container-video-sec-2 .body .body-cont .content::-webkit-scrollbar{
   width: 10px;
   color: rgba(255, 255, 255, 0.6);
