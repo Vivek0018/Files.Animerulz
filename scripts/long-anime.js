@@ -187,4 +187,6 @@ function scrollToDiv() {
   
   setTimeout(scrollToDiv, 500);
   
-  
+let episode_div;
+episode_div = document.querySelector(".main-container-video-sec-2 .body .body-cont .content");
+episode_div.setAttribute("style", "grid-template-columns: repeat(auto-fit, 55px);");
