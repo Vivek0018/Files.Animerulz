@@ -2,21 +2,21 @@
     {
         "name" : "Attack On Titan",
         "background" : "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-C6FPmWm59CyP.jpg",
-        "episodes" : "Ep-25/25",
+        "episodes" : "Ep-25",
         "time" : "24min/ep",
         "onclick_div":"https://animerulz.xyz/AttackonTitan/"
     },
     {
         "name" : "Chainsaw Man",
         "background" : "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-FlochcFsyoF4.png",
-        "episodes" : "Ep-12/12",
+        "episodes" : "Ep-12",
         "time" : "24min/ep",
         "onclick_div" : "https://animerulz.xyz/ChainsawMan/"
     },
     {
         "name" : "Blue Lock",
         "background" : "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137822-4dVWMSHLpGf8.png",
-        "episodes" : "Ep-24/24",
+        "episodes" : "Ep-24",
         "time" : "24min/ep",
         "onclick_div" : "https://animerulz.xyz/BlueLock/"
     },
@@ -30,7 +30,7 @@
     {
         "name" : "Demon Slayer Kimetsu no Yaiba",
         "background" : "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-PEn1CTc93blC.jpg",
-        "episodes" : "Ep-24/24",
+        "episodes" : "Ep-24",
         "time" : "24min/ep",
         "onclick_div" : "https://animerulz.xyz/DemonSlayerKimetsunoYaiba/"
     },
@@ -44,7 +44,7 @@
     {
         "name" : "One Punch Man",
         "background" : "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21087-UV2tu6exrfXz.jpg",
-        "episodes" : "Ep-12/12",
+        "episodes" : "Ep-12",
         "time" : "24min/ep",
         "onclick_div" : "https://animerulz.xyz/OnePunchMan/"
     }
