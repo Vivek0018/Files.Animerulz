@@ -957,15 +957,9 @@ h1{
     flex-wrap: wrap;
     text-align: center;
   }
-  .anime-recom,.more-from-this{
-    width: 100%;
-    margin: 0;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 0;
-  }
   .anime-recom .anime-rec-div,.more-from-this .anime-rec-div{
-    width: 42%;
+    width: 100%;
+    padding: 0;
     /* height: 200%; */
   }
   .container-image-div{
@@ -1023,6 +1017,19 @@ h1{
   margin-left: 10px;
 }
 }
+@media only screen and (max-width:600px){
+  .anime-recom,.more-from-this{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: space-evenly;
+  }
+  .anime-recom .anime-rec-div,.more-from-this .anime-rec-div{
+    margin: 0;
+    margin-top: 20px;
+  }
+}
 @media only screen and (max-width:500px){
   .recommendations,.more-from-this-anime{
     padding-left: 0;
@@ -1030,7 +1037,7 @@ h1{
   }
   .anime-recom .anime-rec-div,.more-from-this .anime-rec-div{
     min-width: none;
-    width: 45%;
+    /* width: 45%; */
   }
 }
 @media only screen and (max-width:470px){
@@ -1090,7 +1097,7 @@ h1{
   height: 250px;
 }
 .anime-recom .anime-rec-div,.more-from-this .anime-rec-div{
-  width: 42%;
+  /* width: 42%;anime-info-rec */
   height: 300px;
 }
 .anime-rec-txt h2{
@@ -1098,6 +1105,8 @@ h1{
 }
 .anime-info-rec,.anime-info-rec-2{
   font-size: 11px;
+  /* min-width: 140px; */
+  /* overflow-x: hidden; */
 }
 }
 @media only screen and (max-width:390px){
@@ -1129,6 +1138,9 @@ h1{
   }
   .video-l-details-data{
     display: none;
+  }
+  .anime-info-rec, .anime-info-rec-2{
+    font-size: 8px;
   }
 }
 @media only screen and (max-width:330px){
