@@ -45,7 +45,7 @@ let suggestions = [
     'Hunter X Hunter',
     'Jujutsu Kaisen Season 2',
     'Jujutsu Kaisen',
-    "Jujutsu kaisen 0 Movie",
+    "Jujutsu Kaisen 0 Movie",
     'Mashle',
     'My Hero Academia',
     'My Star',
