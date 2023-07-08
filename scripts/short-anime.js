@@ -161,4 +161,6 @@ function scrollToDiv() {
   
   setTimeout(scrollToDiv, 500);
   
-  
+let episode_div;
+episode_div = document.querySelector(".main-container-video-sec-2 .body .body-cont .content");
+episode_div.setAttribute("style", "grid-template-columns: 100%;grid-gap:0 0;");
