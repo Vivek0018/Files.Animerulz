@@ -148,7 +148,7 @@ html{
 }
 .main-container-video-sec-2 .body .body-cont .content{
   display: grid;
-  grid-template-columns: repeat(auto-fit, 55px);
+  /* grid-template-columns: repeat(auto-fit, 55px); */
   grid-gap: 10px 1.8px;
   /* grid-column-end: auto; */
   justify-content: space-evenly;
@@ -163,7 +163,7 @@ html{
 }
 @media only screen and (max-width : 450px){
 .main-container-video-sec-2 .body .body-cont .content{
-    grid-template-columns: repeat(auto, 45px);
+    grid-template-columns: repeat(auto-fit, 45px);
     justify-content: space-evenly;
   }
 }
