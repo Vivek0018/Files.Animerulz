@@ -66,9 +66,9 @@ html{
   background-color: rgba(0,0,0,0.8);
   /* padding-left: 10px; */
 }
-.main-container-video-sec-1, .main-container-video-sec-2{
+/* .main-container-video-sec-1{
   height: 670px;
-}
+} */
 .main{
   /* background: url("naruto-series-animerulz-bg-3.webp"); */
   z-index: 1;
@@ -163,7 +163,7 @@ html{
 }
 @media only screen and (max-width : 450px){
 .main-container-video-sec-2 .body .body-cont .content{
-    grid-template-columns: repeat(auto-fit, 45px);
+    grid-template-columns: repeat(auto-fit, minmax(30px, 15%));
     justify-content: space-evenly;
   }
 }
