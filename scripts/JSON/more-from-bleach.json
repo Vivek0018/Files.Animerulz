@@ -1,5 +1,12 @@
 [
     {
+        "name" : "Bleach : TYBW Season 2",
+        "background" : "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159322-Sp1GflRhE6Po.jpg",
+        "episodes" : "Ep-1",
+        "time" : "23min",
+        "onclick_div" : "https://animerulz.xyz/BleachTYBWSeason2/"
+    },
+    {
     "name" : "Bleach : Thousand Year Blood War Arc",
     "background" : "https://img.zorores.com/_r/300x400/100/10/1e/101ecbb80baf2e42cfb22595e0bee368/101ecbb80baf2e42cfb22595e0bee368.jpg",
     "episodes" : "Ep-13",
