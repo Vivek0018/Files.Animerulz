@@ -2214,6 +2214,23 @@
         },
         "episodes_names" : ["The Blood Warfare", "Foundation Stones", "March of the StarCross", "Kill The Shadow", "Wrath as a Lightning", "The Fire", "Born in the Dark", "The Shooting Star Project (Zero Mix)", "The Drop", "The Battle", "Everything But The Rain", "Everything But The Rain June Truth", "The Blade Is Me"]
     },
+    "Bleach : TYBW Season 2" : {
+        "jap" : {
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me?id=bleach-sennen-kessen-hen-ketsubetsu-tan-episode-",
+            "down_links" : [
+                "https://gotaku1.com/download?id=MjA3ODQ4&typesub=AniKatsu-SUB&title=Bleach%3A+Sennen+Kessen-hen+-+Ketsubetsu-tan+Episode+1"
+            ]
+        },
+        "eng" : {
+            "no_epi" : 0,
+            "link" : "",
+            "down_links" : []
+        },
+        "episodes_names" : [
+            "The Last 9 Days"
+        ]
+    },
     "Bleach : The Sealed Sword Frenzy"  : {
         "jap" : {
             "no_epi" : 1,
