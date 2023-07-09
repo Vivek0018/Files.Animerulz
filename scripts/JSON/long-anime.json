@@ -1,7 +1,7 @@
 {
     "One Piece" :{
         "jap":{
-            "no_epi" : 1067,
+            "no_epi" : 1068,
             "link" : "https://player.anikatsu.me/index.php?id=one-piece-episode-",
             "down_links" : [
             "https://gotaku1.com/download?id=MzUxOA==&typesub=Animerulz Anime-SUB&title=One+Piece+Episode+1",
@@ -1070,10 +1070,11 @@
             "https://gotaku1.com/download?id=MjA1NTA2&typesub=Aniemrulz%20Anime-SUB&title=One+Piece+Episode+1064",
             "https://gotaku1.com/download?id=MjA1OTk0&typesub=Animerulz Anime-SUB&title=One+Piece+Episode+1065",
             "https://gotaku1.com/download?id=MjA2ODcx&typesub=Animerulz Anime-SUB&title=One+Piece+Episode+1066",
-            "https://gotaku1.com/download?id=MjA3Mzc1&typesub=Animerulz Anime-SUB&title=One+Piece+Episode+1067"]
+            "https://gotaku1.com/download?id=MjA3Mzc1&typesub=Animerulz Anime-SUB&title=One+Piece+Episode+1067",
+            "https://gotaku1.com/download?id=MjA3ODYy&typesub=Animerulz Anime-SUB&title=One+Piece+Episode+1068"]
         },
         "eng":{
-            "no_epi" : 976,
+            "no_epi" : 988,
             "link" : "https://player.anikatsu.me/index.php?id=one-piece-dub-episode-",
             "down_links" : [
                 "https://gotaku1.com/download?id=ODgyMjc=&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+1",
@@ -2051,7 +2052,19 @@
                 "https://gotaku1.com/download?id=MjA2MjQ3&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+973",
                 "https://gotaku1.com/download?id=MjA2MjQ4&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+974",
                 "https://gotaku1.com/download?id=MjA2MjQ5&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+975",
-                "https://gotaku1.com/download?id=MjA2MjUw&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+976"
+                "https://gotaku1.com/download?id=MjA2MjUw&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+976",
+                "https://gotaku1.com/download?id=MjA3NTc1&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+977",
+                "https://gotaku1.com/download?id=MjA3NTc2&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+978",
+                "https://gotaku1.com/download?id=MjA3NTc3&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+979",
+                "https://gotaku1.com/download?id=MjA3NTc4&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+980",
+                "https://gotaku1.com/download?id=MjA3NTc5&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+981",
+                "https://gotaku1.com/download?id=MjA3NTgw&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+982",
+                "https://gotaku1.com/download?id=MjA3NTgx&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+983",
+                "https://gotaku1.com/download?id=MjA3NTgy&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+984",
+                "https://gotaku1.com/download?id=MjA3NTgz&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+985",
+                "https://gotaku1.com/download?id=MjA3NTg0&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+986",
+                "https://gotaku1.com/download?id=MjA3NTg1&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+987",
+                "https://gotaku1.com/download?id=MjA3NTg2&typesub=Animerulz Anime-DUB&title=One+Piece+%28Dub%29+Episode+988"
             ]
         }
 
