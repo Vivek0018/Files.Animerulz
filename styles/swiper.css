@@ -405,3 +405,6 @@ html{
     display: none;
   }
 }
+.slide-container .slide-btn:hover{
+  cursor: pointer;
+}
