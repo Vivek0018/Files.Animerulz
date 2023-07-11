@@ -164,3 +164,44 @@ function scrollToDiv() {
 let episode_div;
 episode_div = document.querySelector(".main-container-video-sec-2 .body .body-cont .content");
 episode_div.setAttribute("style", "grid-template-columns: 100%;grid-gap:0 0;");
+
+//for storing local episode data
+
+      // Function to handle button clicks
+      function handleClick(event) {
+        // Store the clicked button's ID and color in local storage
+        localStorage.setItem('lastClickedButton', event.target.id);
+        localStorage.setItem(event.target.id, "visited-audio");
+        
+        // Change the color of the clicked button
+        event.target.classList.add("visited-audio");
+        // event.target.style.color = "#ffffffcc";
+      }
+  
+      // Add click event listeners to all buttons
+      function setEpisodesData(){
+        var buttons = document.querySelectorAll('.episode');
+        buttons.forEach(function(button) {
+            button.addEventListener('click', handleClick);
+            
+            // Check if the button has a stored color and update it
+            if (localStorage.getItem(button.id) === "visited-audio") {
+            button.classList.add("visited-audio");
+            // button.target.style.color = "#ffffffcc";
+            }
+        });
+        
+        let active_aud = document.querySelector(".active.episode");
+        localStorage.setItem('lastClickedButton', active_aud.id);
+        localStorage.setItem(active_aud.id, "visited-audio");
+        console.log(active_aud);
+        // Retrieve the last clicked button and update its color
+        var lastClickedButtonId = localStorage.getItem('lastClickedButton');
+        if (lastClickedButtonId) {
+            var lastClickedButton = document.getElementById(lastClickedButtonId);
+            lastClickedButton.classList.add("visited-audio");
+        }
+        active_aud.style.backgroundColor = "#faa300";
+    }
+
+      setTimeout(setEpisodesData, 500);
