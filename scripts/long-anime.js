@@ -35,10 +35,11 @@ long_anime_file.onload = function(){
         anime = anime.textContent.replace(/[^a-zA-Z0-9]/g, "");
         for(let i = min_range; i <= max_range; i++){
             if(i == epi_num){
-                temp = "<div class='episode active'>" + i + "</div>";
+                temp = "<div class='episode active' id='episode-" + i + "'>" + i + "</div>";
             }else{ 
-                var temp_1 = 'window.open("https://animerulz.xyz/' + anime + "/Watch-Now/?ep=" + i + '&aud=' + epi_aud + '", "_self")';
-                temp = "<div class='episode' onclick='" + temp_1 + "'>" + i +"</div>" ;
+                var temp_1 = 'window.open("http://127.0.0.1:5501/' + anime + "/Watch-Now/?ep=" + i + '&aud=' + epi_aud + '", "_self")';
+                temp = "<div class='episode' id='episode-" + i + "' onclick='" + temp_1 + "'>" + i +"</div>" ;
+                // temp = "<div class='episode' id='episode-" + i + "'>" + i +"</div>" ;
             }
             outputNew += temp;
         }
@@ -193,3 +194,47 @@ if(screen.width >= 450)
     episode_div.setAttribute("style", "grid-template-columns: repeat(auto-fit, 55px);");
 else
     episode_div.setAttribute("style", "grid-template-columns: repeat(auto-fit, minmax(30px, 15%));");
+
+
+
+
+//for storing local episode data
+
+      // Function to handle button clicks
+      function handleClick(event) {
+        // Store the clicked button's ID and color in local storage
+        localStorage.setItem('lastClickedButton', event.target.id);
+        localStorage.setItem(event.target.id, "visited-audio");
+        
+        // Change the color of the clicked button
+        event.target.classList.add("visited-audio");
+        // event.target.style.color = "#ffffffcc";
+      }
+  
+      // Add click event listeners to all buttons
+      function setEpisodesData(){
+        var buttons = document.querySelectorAll('.episode');
+        buttons.forEach(function(button) {
+            button.addEventListener('click', handleClick);
+            
+            // Check if the button has a stored color and update it
+            if (localStorage.getItem(button.id) === "visited-audio") {
+            button.classList.add("visited-audio");
+            // button.target.style.color = "#ffffffcc";
+            }
+        });
+        
+        let active_aud = document.querySelector(".active.episode");
+        localStorage.setItem('lastClickedButton', active_aud.id);
+        localStorage.setItem(active_aud.id, "visited-audio");
+        console.log(active_aud);
+        // Retrieve the last clicked button and update its color
+        var lastClickedButtonId = localStorage.getItem('lastClickedButton');
+        if (lastClickedButtonId) {
+            var lastClickedButton = document.getElementById(lastClickedButtonId);
+            lastClickedButton.classList.add("visited-audio");
+        }
+        active_aud.style.backgroundColor = "#faa300";
+    }
+
+      setTimeout(setEpisodesData, 500);
