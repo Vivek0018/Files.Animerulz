@@ -23,7 +23,7 @@ html::-webkit-scrollbar{
   height: 100vh;
   width: 100%;
   position: fixed;
-  z-index: 4;
+  z-index: 5;
   /* display: block; */
 }
 .preloader-img{
@@ -52,10 +52,88 @@ button:hover{
     cursor: pointer;
 }
 .nav-image{
+  position: inherit;
     width:200px;
     height: 55px;
     padding: 10px;
-    float: left;
+    /* float: left; */
+    margin-left: 50px;
+}
+.bars{
+  position: absolute;
+  padding: 25px 20px;
+}
+.bars:hover{
+  cursor: pointer;
+}
+.svg-bar-icon{
+  fill: rgba(255, 255, 255, 0.8);
+  height: 25px;
+}
+
+.more-menu{
+  /* display: none; */
+  margin-left: -100vw;
+  position: fixed;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  height: 100vh;
+  max-width: 1500px;
+  transition: all 0.5s;
+  z-index: 4;
+  display: flex;
+  grid-column: 1;
+}
+.close-me-div{
+  max-width: 1200px;
+  width: calc(100vw - 300px);
+  height: 100%;
+}
+.main-container-in-menu{
+  width: 300px;
+  display: grid;
+  grid-template-rows: 56px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 100%;
+  padding: 0 20px;
+}
+.close-div{
+  padding: 10px;
+  margin-top: 10px;
+}
+.more-menu .close-menu-data{
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 10px;
+  /* padding-left: 30px; */
+  color: rgba(0,0,0,0.95);
+  font-size: 18px;
+  border-radius: 40px;
+  width: 180px;
+  transition: 0.5s;
+}
+.more-menu .close-menu-data:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.more-menu .txt-close-div{
+  margin-left: 40px;
+}
+.more-menu .more-data-in-menu{
+  padding: 20px 0;
+}
+.more-menu .more-data-in-menu .data-in-menu{
+  padding: 12px 10px;
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: solid 2px rgba(0,0,0,0.5);
+}
+.more-menu .more-data-in-menu .data-in-menu.first-data-in-menu{
+  border-top: solid 2px rgba(0,0,0,0.5);
+}
+.more-menu .more-data-in-menu .data-in-menu:hover{
+  color: #faa300;
+  cursor: pointer;
+  /* fill: #faa300; */
 }
 .search-icon:hover{
     cursor: pointer;
@@ -66,6 +144,62 @@ button:hover{
 .svg-search-icon{
     width: 40px;
     margin-top: 5px;
+}
+.more-menu .more-data-in-menu .data-in-menu:hover > .anchor-in-menu .svg-icon-on-menu{
+  fill: #faa300;
+  height: 25px;
+  margin-top: -3px;
+  margin-left: 5px;
+  /* position: absolute; */
+}
+.more-data-for-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95%;
+}
+.more-data-in-menu-2 .data-in-menu{
+  padding:10px;
+  font-size: 21px;
+  /* color: rgba(255,0,0); */
+}
+.more-data-in-menu-2 .data-in-menu:first-child{
+  color: rgba(255,0,0,0.8);
+}
+.more-data-in-menu-2 .data-in-menu.second-item{
+  color: rgba(32, 151, 32);
+}
+.more-data-in-menu-2 .data-in-menu.third-item{
+  color: rgb(195,172,123);
+}
+.more-data-in-menu-2 .data-in-menu.fourth-item{
+  color: rgb(185,156,198);
+}
+.more-data-in-menu-2 .data-in-menu.fifth-item{
+  color: rgb(16,208,228);
+}
+@media only screen and (max-width:1000px){
+  .more-data-in-menu .data-in-menu{
+    font-size: 14px;
+  }
+  .more-data-in-menu-2 .data-in-menu{
+    font-size: 17px;
+  }
+}
+.svg-close-menu{
+  height: 17px;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+.svg-icon-on-menu{
+  /* fill: #faa300; */
+  position: absolute;
+  rotate: 180deg;
+  height: 20px;
+  transition: 0.5s;
+  margin-top: -1px;
+  margin-left: 3px;
 }
 .follow{
     display:flex;
@@ -89,6 +223,33 @@ button:hover{
 }
 .svg-icons-follow:hover{
     cursor: pointer;
+}
+@media only screen and (max-width:500px){
+  .more-data-in-menu .data-in-menu{
+    font-size: 14px;
+  }
+  .more-data-in-menu-2 .data-in-menu{
+    font-size: 15px;
+  }
+  .more-menu .close-menu-data{
+    font-size: 12px;
+    padding: 10px;
+    width: 100px;
+  }
+  .main-container-in-menu{
+    grid-template-rows: 45px auto;
+  }
+  .more-menu .txt-close-div{
+    margin-left: 25px;
+  }
+  .close-div{
+    padding: 5px;
+  }
+  .svg-close-menu{
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 0px;
+  }
 }
 /* search section start */
 .icon{
@@ -222,6 +383,8 @@ button:hover{
     z-index: 3;
     max-width: 1500px;
     transition: all 0.5s linear;
+    /* display: flex; */
+    /* padding-left: 20px; */
     /* display: none; */
 }
 .second-nav{
