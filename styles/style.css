@@ -78,7 +78,7 @@ button:hover{
   background-color: rgba(0,0,0,0.5);
   backdrop-filter: blur(5px);
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   max-width: 1500px;
   transition: all 0.5s;
   z-index: 4;
@@ -158,31 +158,34 @@ button:hover{
   justify-content: space-between;
   height: 95%;
 }
-.more-data-in-menu-2 .data-in-menu{
+.more-data-in-menu .more-in-data-in-menu{
+  margin-top: 20px;
+}
+.more-data-in-menu .data-in-menu-2{
   padding:10px;
   font-size: 21px;
   /* color: rgba(255,0,0); */
 }
-.more-data-in-menu-2 .data-in-menu:first-child{
+.more-data-in-menu .data-in-menu-2.first-item{
   color: rgba(255,0,0,0.8);
 }
-.more-data-in-menu-2 .data-in-menu.second-item{
+.more-data-in-menu .data-in-menu-2.second-item{
   color: rgba(32, 151, 32);
 }
-.more-data-in-menu-2 .data-in-menu.third-item{
+.more-data-in-menu .data-in-menu-2.third-item{
   color: rgb(195,172,123);
 }
-.more-data-in-menu-2 .data-in-menu.fourth-item{
+.more-data-in-menu .data-in-menu-2.fourth-item{
   color: rgb(185,156,198);
 }
-.more-data-in-menu-2 .data-in-menu.fifth-item{
+.more-data-in-menu .data-in-menu-2.fifth-item{
   color: rgb(16,208,228);
 }
 @media only screen and (max-width:1000px){
   .more-data-in-menu .data-in-menu{
     font-size: 14px;
   }
-  .more-data-in-menu-2 .data-in-menu{
+  .more-data-in-menu .data-in-menu-2{
     font-size: 17px;
   }
 }
@@ -228,7 +231,7 @@ button:hover{
   .more-data-in-menu .data-in-menu{
     font-size: 14px;
   }
-  .more-data-in-menu-2 .data-in-menu{
+  .more-data-in-menu .data-in-menu{
     font-size: 15px;
   }
   .more-menu .close-menu-data{
