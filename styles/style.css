@@ -78,9 +78,9 @@ button:hover{
   background-color: rgba(0,0,0,0.5);
   backdrop-filter: blur(5px);
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   max-width: 1500px;
-  transition: all 0.5s;
+  transition: margin 0.5s;
   z-index: 4;
   display: flex;
   grid-column: 1;
