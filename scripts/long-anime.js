@@ -37,7 +37,7 @@ long_anime_file.onload = function(){
             if(i == epi_num){
                 temp = "<div class='episode active' id='episode-" + i + "'>" + i + "</div>";
             }else{ 
-                var temp_1 = 'window.open("http://127.0.0.1:5501/' + anime + "/Watch-Now/?ep=" + i + '&aud=' + epi_aud + '", "_self")';
+                var temp_1 = 'window.open("https://animerulz.xyz/' + anime + "/Watch-Now/?ep=" + i + '&aud=' + epi_aud + '", "_self")';
                 temp = "<div class='episode' id='episode-" + i + "' onclick='" + temp_1 + "'>" + i +"</div>" ;
                 // temp = "<div class='episode' id='episode-" + i + "'>" + i +"</div>" ;
             }
