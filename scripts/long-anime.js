@@ -35,7 +35,7 @@ long_anime_file.onload = function(){
         anime = anime.textContent.replace(/[^a-zA-Z0-9]/g, "");
         for(let i = min_range; i <= max_range; i++){
             if(i == epi_num){
-                temp = "<div class='episode active' id='episode-" + i + "'>" + i + "</div>";
+                temp = "<div class='episode active' id='episode-" + anime + "-" + i + "'>" + i + "</div>";
             }else{ 
                 var temp_1 = 'window.open("https://animerulz.xyz/' + anime + "/Watch-Now/?ep=" + i + '&aud=' + epi_aud + '", "_self")';
                 temp = "<div class='episode' id='episode-" + i + "' onclick='" + temp_1 + "'>" + i +"</div>" ;
