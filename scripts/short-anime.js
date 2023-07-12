@@ -170,14 +170,21 @@ episode_div.setAttribute("style", "grid-template-columns: 100%;grid-gap:0 0;");
       // Function to handle button clicks
       function handleClick(event) {
         // Store the clicked button's ID and color in local storage
-        localStorage.setItem('lastClickedButton', event.target.id);
-        localStorage.setItem(event.target.id, "visited-audio");
+        localStorage.setItem('lastClickedButton' + anime , event.target.id);
+        localStorage.setItem(event.target.id, "visited-episode");
+        
+        // Change the color of the clicked button
+        event.target.classList.add("visited-episode");
+        // event.target.style.color = "#ffffffcc";
+      }
+      function handleClickAudio(event) {
+        // Store the clicked button's ID and color in local storage
+        localStorage.setItem('lastClickedButtonAudio' + anime , event.target.id);
         
         // Change the color of the clicked button
         event.target.classList.add("visited-audio");
         // event.target.style.color = "#ffffffcc";
       }
-  
       // Add click event listeners to all buttons
       function setEpisodesData(){
         var buttons = document.querySelectorAll('.episode');
@@ -185,23 +192,27 @@ episode_div.setAttribute("style", "grid-template-columns: 100%;grid-gap:0 0;");
             button.addEventListener('click', handleClick);
             
             // Check if the button has a stored color and update it
-            if (localStorage.getItem(button.id) === "visited-audio") {
-            button.classList.add("visited-audio");
+            if (localStorage.getItem(button.id) === "visited-episode") {
+            button.classList.add("visited-episode");
             // button.target.style.color = "#ffffffcc";
             }
         });
         
-        let active_aud = document.querySelector(".active.episode");
-        localStorage.setItem('lastClickedButton', active_aud.id);
-        localStorage.setItem(active_aud.id, "visited-audio");
-        console.log(active_aud);
+        let active_epi = document.querySelector(".active.episode");
+        console.log(anime);
+        localStorage.setItem('lastClickedButton' + anime, active_epi.id);
+        localStorage.setItem(active_epi.id, "visited-episode");
+        let active_aud = document.querySelector(".active-aud.audio");
+        localStorage.setItem('lastClickedButtonAudio' + anime, active_aud.getAttribute("name"));
+        // localStorage.setItem(active_epi.id, "visited-);
+        // console.log(active_aud);
         // Retrieve the last clicked button and update its color
-        var lastClickedButtonId = localStorage.getItem('lastClickedButton');
+        var lastClickedButtonId = localStorage.getItem('lastClickedButton' + anime);
         if (lastClickedButtonId) {
-            var lastClickedButton = document.getElementById(lastClickedButtonId);
-            lastClickedButton.classList.add("visited-audio");
+            var lastClickedButton1 = document.getElementById(lastClickedButtonId);
+            lastClickedButton1.classList.add("visited-episode");
         }
-        active_aud.style.backgroundColor = "#faa300";
+        // active_aud.style.backgroundColor = "#faa300";
     }
 
       setTimeout(setEpisodesData, 500);
