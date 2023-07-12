@@ -140,11 +140,20 @@ nav_bar_cust();
 // else{
 try{
     document.getElementById("a-home-anchor-tag").setAttribute("href", "https://Animerulz.xyz/");
-    var activeAnime = document.getElementById("a-active-page-tag");
-    activeAnime.setAttribute("href", "https://Animerulz.xyz/" + activeAnime.textContent.replace(/[^a-zA-Z0-9]/g, ""));
+    var activeAnime = document.getElementById("a-active-page-tag").textContent.replace(/[^a-zA-Z0-9]/g, "");
+    activeAnime.setAttribute("href", "https://Animerulz.xyz/" + activeAnime);
 }
 catch{}
 try{
+    // console.log(localStorage.getItem("lastClickedButtonOnePiece")
+    let check = document.getElementsByClassName("active-page-tag-season")[0];
+    let activeAnimeNew;
+    if(check === undefined){
+        activeAnimeNew = document.getElementById("active-page-tag").textContent.replace(/[^a-zA-Z0-9]/g, "");
+        // console.log(activeAnimeNew);
+    }
+    // console.log(document.getElementsByClassName("btns-in-data")[0].getElementsByTagName("a")[0]);
+    document.getElementsByClassName("btns-in-data")[0].getElementsByTagName("a")[0].setAttribute("href", "/" + activeAnimeNew +  "/Watch-Now/?ep=" + localStorage.getItem("lastClickedButton" + activeAnimeNew).split("-")[2] + "&aud=" + localStorage.getItem("lastClickedButtonAudio" + activeAnimeNew)); 
     document.getElementsByClassName('button-read-manga')[0].setAttribute("onclick", "window.open('https://mangareader.to/')");
 }
 catch{}
@@ -154,7 +163,6 @@ try{
     document.getElementsByClassName("nav-image")[0].setAttribute("onclick", "window.open('https://animerulz.xyz/','_self')");
 }
 catch{}
-
 
 try{
     document.getElementsByClassName("second-nav")[0].style.backgroundPositionX = "center";
