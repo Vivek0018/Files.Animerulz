@@ -63,6 +63,7 @@ button:hover{
 .bars{
   position: absolute;
   padding: 25px 20px;
+  display: none;
 }
 .bars:hover{
   cursor: pointer;
@@ -90,6 +91,8 @@ button:hover{
   left: 0;
   right: 0; */
   overflow: hidden;
+  /* opacity: 0; */
+
 }
 .close-me-div{
   max-width: 1200px;
