@@ -1886,10 +1886,11 @@
     },
     "Jujutsu Kaisen Season 2" : {
         "jap" : {
-            "no_epi" : 1,
+            "no_epi" : 2,
             "link" : "https://player.anikatsu.me?id=jujutsu-kaisen-2nd-season-episode-",
             "down_links" : [
-                "https://gotaku1.com/download?id=MjA3NzM2&typesub=Animerulz-SUB&title=Jujutsu+Kaisen+2nd+Season+Episode+1"
+                "https://gotaku1.com/download?id=MjA3NzM2&typesub=Animerulz-SUB&title=Jujutsu+Kaisen+2nd+Season+Episode+1",
+                "https://gotaku1.com/download?id=MjA4MTMz&typesub=Animerulz-SUB&title=Jujutsu+Kaisen+2nd+Season+Episode+2"
             ]
         },
         "eng" : {
@@ -1897,7 +1898,7 @@
             "link" : "",
             "down_links" : []
         },
-        "episodes_names" : ["Hidden Inventory"]
+        "episodes_names" : ["Hidden Inventory", "Hidden Inventory 2"]
     },
     "One Punch Man" : {
         "jap" : {
