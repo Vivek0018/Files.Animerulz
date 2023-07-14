@@ -622,6 +622,7 @@ html{
   opacity: 0.7;
 }
 .main-container-video-sec-2 .body  .active-episode{
+  opacity: 1;
   color: rgba(0, 0, 0, 0.9);
 }
 /* .play-svg{
