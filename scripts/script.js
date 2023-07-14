@@ -153,7 +153,10 @@ try{
         // console.log(activeAnimeNew);
     }
     // console.log(document.getElementsByClassName("btns-in-data")[0].getElementsByTagName("a")[0]);
-    document.getElementsByClassName("btns-in-data")[0].getElementsByTagName("a")[0].setAttribute("href", "/" + activeAnimeNew +  "/Watch-Now/?ep=" + localStorage.getItem("lastClickedButton" + activeAnimeNew).split("-")[2] + "&aud=" + localStorage.getItem("lastClickedButtonAudio" + activeAnimeNew)); 
+    let activeAnimeNewEpi = localStorage.getItem("lastClickedButton" + activeAnimeNew).split("-")[2];
+    if (activeAnimeNewEpi == undefined)
+        activeAnimeNewEpi = 1;
+    document.getElementsByClassName("btns-in-data")[0].getElementsByTagName("a")[0].setAttribute("href", "/" + activeAnimeNew +  "/Watch-Now/?ep=" + activeAnimeNewEpi + "&aud=" + localStorage.getItem("lastClickedButtonAudio" + activeAnimeNew)); 
     document.getElementsByClassName('button-read-manga')[0].setAttribute("onclick", "window.open('https://mangareader.to/')");
 }
 catch{}
