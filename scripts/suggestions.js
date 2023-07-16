@@ -76,5 +76,6 @@ let suggestions = [
     'Tokyo Revengers',
     "Tokyo Revengers Christmas Showdown",
     'Vinland Saga',
-    "Vinland Saga Season 2"
+    "Vinland Saga Season 2",
+    "Zom 100"
 ]
