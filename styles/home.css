@@ -177,7 +177,7 @@ a{
     margin-left: 10px;
   }
 .anime-in-trending{
-  min-width: 100px;
+  min-width: 120px;
   position: relative;
 }
 .vertical-container{
@@ -185,7 +185,7 @@ a{
   background: linear-gradient(180deg,rgba(0,0,0,0.5) 0, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0.1) 99%);
   /* background-color: #faa300; */
   /* rotate: 90deg; */
-  width: 100px;
+  width: 120px;
   height: 100%;
   display: flex;
 }
@@ -193,8 +193,8 @@ a{
   width: 200px;
 } */
 .anime-in-trending .image-container img{
-  width: 100px;
-  height: 150px;
+  width: 120px;
+  height: 180px;
 }
 .vertical-container h3{
   transform: rotate(0deg);
