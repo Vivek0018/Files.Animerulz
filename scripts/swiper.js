@@ -35,7 +35,7 @@ class Slideshow {
             delay: this.config.slideshow.delay,
             disableOnInteraction: false,
           },
-          speed: 1000,
+          speed: 500,
           preloadImages: true,
           updateOnImagesReady: true,
           
