@@ -2231,7 +2231,7 @@
         },
         "episodes_names" : [
             "The Last 9 Days", "Peace from Shadows"
-        ]
+        ]   
     },
     "Bleach : The Sealed Sword Frenzy"  : {
         "jap" : {
@@ -2500,5 +2500,18 @@
             "links" : ["ao0xsej4yyxw"]
         },
         "episodes_names" : ["Black Clover Sword of the Wizard King"]
+    },
+    "Zom 100" : {
+        "jap" : {
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me?id=zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto-episode-",
+            "down_links" : ["https://gotaku1.com/download?id=MjA3ODcw&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+1"]
+        },
+        "eng" : {
+            "no_epi" : 0,
+            "link" : "",
+            "down_links" : []
+        },
+        "episodes_names" : ["Akira of the Dead", "Bucket list of the Dead"]
     }
 }
