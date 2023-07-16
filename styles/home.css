@@ -96,7 +96,7 @@ a{
 }
 .vertical-container{
   width: 40px;
-  background: linear-gradient(180deg,#4a4b51 0,rgba(74,75,81,0) 99%);;
+  background: linear-gradient(180deg,#4a4b51 0,rgba(74,75,81,0) 99%);
   /* background:linear-gradient(0deg, rgba(0,0,0,0.2),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(255,255,255,0.4), rgba(255,255,255,0.7)); */
 }
 .animes-in-trending,.anime-in-container-most-viewed,.container-best-on-imdb{
@@ -144,7 +144,7 @@ a{
     font-size: 110%;
   }
 }
-@media only screen and (max-width:550px){
+@media only screen and (max-width:800px){
   .anime-in-trending{
   min-width: 170px;
 }
@@ -169,5 +169,57 @@ a{
 }
 .anime-in-trending{
   margin: 0 5px;
+}
+}
+@media only screen and (max-width:550px){
+  h2{
+    font-size: 18px;
+    margin-left: 10px;
+  }
+.anime-in-trending{
+  min-width: 100px;
+  position: relative;
+}
+.vertical-container{
+  position: absolute;
+  background: linear-gradient(180deg,rgba(0,0,0,0.5) 0, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0.1) 99%);
+  /* background-color: #faa300; */
+  /* rotate: 90deg; */
+  width: 100px;
+  height: 100%;
+  display: flex;
+}
+/* .anime-in-trending .image-container{
+  width: 200px;
+} */
+.anime-in-trending .image-container img{
+  width: 100px;
+  height: 150px;
+}
+.vertical-container h3{
+  transform: rotate(0deg);
+  margin-top: 0;
+  margin-left: 0;
+  font-size: 60%;
+  background-color: rgba(0,0,0,0.5);
+  height: 20px;
+  text-align: center;
+  display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 0.5cm;
+}
+.vertical-container span{
+  margin: 0;
+  height: 20px;
+  font-size: 14px;
+  padding: 0 3px;
+}
+.anime-in-trending{
+  margin: 0 5px;
+}
+.home-main-info h1{
+  font-size: 12px;
 }
 }
