@@ -1886,12 +1886,11 @@
     },
     "Jujutsu Kaisen Season 2" : {
         "jap" : {
-            "no_epi" : 3,
+            "no_epi" : 2,
             "link" : "https://player.anikatsu.me?id=jujutsu-kaisen-2nd-season-episode-",
             "down_links" : [
                 "https://gotaku1.com/download?id=MjA3NzM2&typesub=Animerulz-SUB&title=Jujutsu+Kaisen+2nd+Season+Episode+1",
-                "https://gotaku1.com/download?id=MjA4MTMz&typesub=Animerulz-SUB&title=Jujutsu+Kaisen+2nd+Season+Episode+2",
-                "https://gotaku1.com/download?id=MjA4NTAx&typesub=Animerulz-SUB&title=Jujutsu+Kaisen+2nd+Season+Episode+3"
+                "https://gotaku1.com/download?id=MjA4MTMz&typesub=Animerulz-SUB&title=Jujutsu+Kaisen+2nd+Season+Episode+2"
             ]
         },
         "eng" : {
@@ -1899,7 +1898,7 @@
             "link" : "",
             "down_links" : []
         },
-        "episodes_names" : ["Hidden Inventory", "Hidden Inventory 2", "Hidden Inventory 3"]
+        "episodes_names" : ["Hidden Inventory", "Hidden Inventory 2"]
     },
     "One Punch Man" : {
         "jap" : {
@@ -2218,11 +2217,12 @@
     },
     "Bleach : TYBW Season 2" : {
         "jap" : {
-            "no_epi" : 2,
+            "no_epi" : 3,
             "link" : "https://player.anikatsu.me?id=bleach-sennen-kessen-hen-ketsubetsu-tan-episode-",
             "down_links" : [
                 "https://gotaku1.com/download?id=MjA3ODQ4&typesub=Animerulz Anime-SUB&title=Bleach%3A+Sennen+Kessen-hen+-+Ketsubetsu-tan+Episode+1",
-                "https://gotaku1.com/download?id=MjA4Mjg2&typesub=Animerulz Anime-SUB&title=Bleach%3A+Sennen+Kessen-hen+-+Ketsubetsu-tan+Episode+2"
+                "https://gotaku1.com/download?id=MjA4Mjg2&typesub=Animerulz Anime-SUB&title=Bleach%3A+Sennen+Kessen-hen+-+Ketsubetsu-tan+Episode+2",
+                "https://gotaku1.com/download?id=MjA4NjIw&typesub=Animerulz Anime-SUB&title=Bleach%3A+Sennen+Kessen-hen+-+Ketsubetsu-tan+Episode+3"
             ]
         },
         "eng" : {
