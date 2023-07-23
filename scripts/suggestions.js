@@ -6,6 +6,7 @@ let suggestions = [
     "Attack on Titan Season 3 Part 2",
     "Attack on Titan Season 2",
     "Attack on Titan Season 3 Part 1",
+    "Black Clover Sword of the Wizard King",
     'Blue Lock',
     'Black Clover',
     'Bleach',
