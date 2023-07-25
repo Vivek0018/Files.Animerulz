@@ -1,10 +1,16 @@
+let video_container = document.getElementsByClassName("main-container-video-sec-1")[0];
+      var element = document.createElement("div");
+      video_container.prepend(element);
+      video_container.getElementsByTagName("div")[0].setAttribute("class", "preloader-for-video");
+      document.getElementsByClassName("preloader-for-video")[0].innerHTML = '<div class="preloader-for-video"><div class="spinner-box"><div class="circle-border"><div class="circle-core"></div></div>  </div></div>';
+
 const key_value_from_url = window.location.search;
 const urlParams = new URLSearchParams(key_value_from_url);
 let epi_num = urlParams.get("ep");
 let epi_aud = urlParams.get("aud");
 
 let long_anime_file = new XMLHttpRequest();
-long_anime_file.open("get", "https://vivek0018.github.io/Files.Animerulz/scripts/JSON/long-anime.json", true);
+long_anime_file.open("get", "/scripts/JSON/long-anime.json", true);
 long_anime_file.send();
 
 document.getElementById("episode-number-in-video").innerHTML = epi_num;
@@ -231,7 +237,7 @@ else
         });
         
         let active_epi = document.querySelector(".active.episode");
-        console.log(anime);
+        // console.log(anime);
         localStorage.setItem('lastClickedButton' + anime, active_epi.id);
         localStorage.setItem(active_epi.id, "visited-episode");
         let active_aud = document.querySelector(".active-aud.audio");
@@ -248,3 +254,76 @@ else
     }
 
       setTimeout(setEpisodesData, 500);
+
+
+
+    //   setInterval(pauseAdds, 100);
+    
+
+    //   function pauseAdds(){
+    //     try{
+    //         document.getElementsByTagName("iframe")[1].style.display = "none";
+    //     }
+    //     catch(error){
+    //         console.log(error);
+    //     }
+    //   }
+
+    var url = "https://www.example.com";
+// var xhr = new XMLHttpRequest();
+// xhr.open("GET", url);
+// xhr.onreadystatechange = function() {
+//     if (xhr.readyState === 4 && xhr.status === 200) {
+//         var content = xhr.responseText;
+//         if (content.contains("ad")) {
+//             console.log("Ad detected!");
+//         } else {
+//             console.log("No ads detected.");
+//         }
+//     }
+// };
+// xhr.send();
+
+    // Function to log responses
+    // function logResponse(response) {
+    //   console.log('Response URL:', response.url);
+    //   console.log('Response Status:', response.status);
+    //   console.log('Response Headers:', response.headers);
+
+    //   // You can handle the response body depending on its content type
+    //   if (response.headers.get('content-type').includes('application/json')) {
+    //     response.json().then(data => {
+    //       console.log('Response JSON:', data);
+    //     });
+    //   } else {
+    //     response.text().then(text => {
+    //       console.log('Response Text:', text);
+    //     });
+    //   }
+    // }
+
+    // // Intercept fetch calls and log responses
+    // (function() {
+    //   const originalFetch = window.fetch;
+    //   window.fetch = function(url, options) {
+    //     return originalFetch(url, options).then(response => {
+    //       logResponse(response.clone());
+    //       return response;
+    //     }).catch(error => {
+    //       console.error('Fetch Error:', error);
+    //       throw error;
+    //     });
+    //   };
+    // })();
+
+    // // Example fetch call to test the response tracking
+    // fetch('https://jsonplaceholder.typicode.com/posts/1')
+    //   .then(response => response.json())
+    //   .then(data => {
+    //     console.log(JSON.stringify(data, null, 2));
+    //   })
+    //   .catch(error => {
+    //     console.log('Error fetching data.');
+    //   });
+
+
