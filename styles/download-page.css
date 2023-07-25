@@ -47,9 +47,21 @@ html{
 .main-container-video-sec-1{
   width: 70%;
   margin: 0;
+  position: relative;
 }
 .video-des .none{
   display: none;
+}
+.preloader-for-video{
+  /* display: none; */
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: -1;
+}
+iframe{
+  background-color: rgba(0, 0, 0, 0);
 }
 .video-player{
   margin: 0;
@@ -58,6 +70,125 @@ html{
   border: 0;
   width: 100%;
   min-height: 280px;
+  /* position: absolute; */
+  z-index: -1;
+}
+.loader-rings{
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  /* margin: auto; */
+  position: relative;
+}
+.spinner-box {
+  width: 150px;
+  height: 150px;
+  /* display: flex; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  background-color: transparent;
+}
+.circle-border {
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(63,249,220);
+  background: linear-gradient(0deg, rgba(63,249,220,0.1) 33%, rgba(63,249,220,1) 100%);
+  animation: spin .8s linear 0s infinite;
+}
+.circle-core {
+  width: 100%;
+  height: 100%;
+  background-color: #1d2630;
+  border-radius: 50%;
+}
+@media only screen and (max-width:600px){
+  .circle-border,.spinner-box{
+    height: 100px;
+    width: 100px;
+  }
+  .spinner-box{
+    margin-top: 100px;
+}
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
+.loader-ring{
+  height: 100%;
+  width: 100%;
+  border-right: 2px  rgba(255, 255, 255, 1) solid;
+  position: absolute;
+  animation: rotate 3s infinite;
+}
+.loader-ring-1{
+  height: 80%;
+  width: 80%;
+  /* border: 2px #00947C solid; */
+  border-right: 2px  rgba(255, 255, 255, 1) solid;
+  animation: rotate 2s infinite;
+  position: absolute;
+  margin: 10%;
+}
+.loader-ring-2{
+  /* border: 2px aqua solid; */
+  border-right: 2px  rgba(255, 255, 255, 1) solid;
+  height: 60%;
+  width: 60%;
+  margin: 20%;
+  position: absolute;
+  animation: rotate 1.5s infinite;
+}
+.loader-ring,.loader-ring-1,.loader-ring-2{
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+@media only screen and (max-width:600px) {
+  .loader-rings{
+    height: 100px;
+    width: 100px;
+  }
+  .loader-ring-1{
+    width: 76%;
+    height: 76%;
+    margin:12% ;
+  }
+  .loader-ring-2{
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+  }
+}
+
+@keyframes rotate {
+  0%{
+    /* rotate: 0deg; */
+    transform: rotate(0deg);
+  }
+  25%{
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  75%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 .main-container-video-sec-2{
   width: 30%;
