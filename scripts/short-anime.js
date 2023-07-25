@@ -1,3 +1,10 @@
+let video_container = document.getElementsByClassName("main-container-video-sec-1")[0];
+      var element = document.createElement("div");
+      video_container.prepend(element);
+      video_container.getElementsByTagName("div")[0].setAttribute("class", "preloader-for-video");
+      document.getElementsByClassName("preloader-for-video")[0].innerHTML = '<div class="preloader-for-video"><div class="spinner-box"><div class="circle-border"><div class="circle-core"></div></div>  </div></div>';    
+    
+    
     const key_value_from_url = window.location.search;
     const urlParams = new URLSearchParams(key_value_from_url);
     let epi_num = urlParams.get("ep");
