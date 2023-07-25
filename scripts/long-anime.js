@@ -10,7 +10,7 @@ let epi_num = urlParams.get("ep");
 let epi_aud = urlParams.get("aud");
 
 let long_anime_file = new XMLHttpRequest();
-long_anime_file.open("get", "/scripts/JSON/long-anime.json", true);
+long_anime_file.open("get", "https://vivek0018.github.io/Files.Animerulz/scripts/JSON/long-anime.json", true);
 long_anime_file.send();
 
 document.getElementById("episode-number-in-video").innerHTML = epi_num;
