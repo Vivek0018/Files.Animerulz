@@ -1,6 +1,6 @@
 let Bleach_file = new XMLHttpRequest();
 
-Bleach_file.open("get", "/scripts/JSON/more-from-bleach.json", true);
+Bleach_file.open("get", "https://vivek0018.github.io/Files.Animerulz/scripts/JSON/more-from-bleach.json", true);
 Bleach_file.send();
 
 Bleach_file.onload = function(){
