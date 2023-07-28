@@ -289,7 +289,7 @@ button:hover{
     position: absolute;
     height: 45px;
     width: 94.7%;
-    max-width: 1500px;
+    /* max-width: 1500px; */
     margin: auto;
     padding: 0 0 0 5%;
 }
