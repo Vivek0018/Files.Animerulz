@@ -1,0 +1,51 @@
+[
+    {
+        "name" : "My Hero Academia",
+        "background" : "https://img.zorores.com/_r/300x400/100/d1/ae/d1ae1f3d3324e24dfdfa64e4c2e687f8/d1ae1f3d3324e24dfdfa64e4c2e687f8.jpg",
+        "episodes" : "Ep-13",
+        "time" : "24min/ep",
+        "onclick_div" : "https://animerulz.xyz/MyHeroAcademia/"
+    },
+    {
+        "name" : "My Hero Academia Season 2",
+        "background" : "https://img.zorores.com/_r/300x400/100/8c/f9/8cf943f264358d31e264ff459fcf50f8/8cf943f264358d31e264ff459fcf50f8.jpg",
+        "episodes" : "Ep-25",
+        "time" : "23min/ep",
+        "onclick_div" : "https://animerulz.xyz/MyHeroAcademiaSeason2/"
+    },
+    {
+        "name" : "My Hero Academia Season 3",
+        "background" : "https://img.zorores.com/_r/300x400/100/9e/11/9e1115ba906366b39cc7483de68dbbb0/9e1115ba906366b39cc7483de68dbbb0.jpg",
+        "episodes" : "Ep-25",
+        "time" : "23min/ep",
+        "onclick_div" : "https://animerulz.xyz/MyHeroAcademiaSeason3/"
+    },
+    {
+        "name" : "My Hero Academia Season 4",
+        "background" : "https://img.zorores.com/_r/300x400/100/a7/27/a727d8e34cba9a4bb8f151397533e662/a727d8e34cba9a4bb8f151397533e662.jpg",
+        "episodes" : "Ep-25",
+        "time" : "24min/ep",
+        "onclick_div" : "https://animerulz.xyz/MyHeroAcademiaSeason4/"
+    },
+    {
+        "name" : "My Hero Academia Season 5",
+        "background" : "https://img.zorores.com/_r/300x400/100/46/3d/463d27f4c66bc7763a0fcfc952df2299/463d27f4c66bc7763a0fcfc952df2299.jpg",
+        "episodes" : "Ep-25",
+        "time" : "23min/ep",
+        "onclick_div" : "https://animerulz.xyz/MyHeroAcademiaSeason5/"
+    },
+    {
+        "name" : "My Hero Academia Season 6",
+        "background" : "https://img.zorores.com/_r/300x400/100/20/b7/20b7580c1abdf45a6eaf4826fc9fdf33/20b7580c1abdf45a6eaf4826fc9fdf33.jpg",
+        "episodes" : "Ep-25",
+        "time" : "24min/ep",
+        "onclick_div" : "https://animerulz.xyz/MyHeroAcademiaSeason6/"
+    },
+    {
+        "name" : "My Hero Academia Heroes Rising",
+        "background" : "https://img.zorores.com/_r/300x400/100/db/fa/dbfa193d8d6d2a68b9f4b9710cd0c5c8/dbfa193d8d6d2a68b9f4b9710cd0c5c8.jpg",
+        "episodes" : "Movie",
+        "time" : "104min",
+        "onclick_div" : "https://animerulz.xyz/MyHeroAcademiaHeroesRising/"
+    }
+]
