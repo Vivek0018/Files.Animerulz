@@ -15,12 +15,12 @@ function pageChecker(){
 function setAnimeHomePage(){
     let mainContainer = document.getElementsByClassName("main-container")[0];
     let backgroundContainer = document.getElementsByClassName("background-container")[0];
-    let moreSeasons = document.getElementsByClassName("more-seasons");
-    let secondMainContainer = document.getElementsByClassName("main-container-2")[0];
+    // let moreSeasons = document.getElementsByClassName("more-seasons");
+    // let secondMainContainer = document.getElementsByClassName("main-container-2")[0];
 
 
     backgroundContainer.style.height = mainContainer.offsetHeight + "px";
-    secondMainContainer.style.marginTop = mainContainer.offsetHeight + 40 + "px";
+    // secondMainContainer.style.marginTop = mainContainer.offsetHeight + 40 + "px";
 }
 
 function setAnimeDownPage(){
