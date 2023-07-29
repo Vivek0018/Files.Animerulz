@@ -63,7 +63,10 @@ let video_container = document.getElementsByClassName("main-container-video-sec-
             let current_short_anime_epi_num_dub = current_short_anime_data["eng"]['no_epi'];
             var audios_div = document.getElementsByClassName("audios")[0];
             outputNew = "";
-
+            if( epi_num <= current_short_anime_data['mul']['no_epi']){
+                outputNew += "<div class='audio' name='mul'>Multi</div>";
+                document.getElementsByClassName("multi-audio-des")[0].innerHTML = '<span><strong class="str-audio-mul">This Video Source has multi audio</strong> - Use <svg class="svg-mul-audio" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80V384 336 288C0 146.6 114.6 32 256 32s256 114.6 256 256v48 48 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48V304c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"/></svg> to change Audio track.</span>';
+            }
             if(epi_num <= current_short_anime_epi_num){
                 outputNew += "<div class='audio' name='jap'>Subbed</div>";
                 if(epi_num <= current_short_anime_epi_num_dub){
@@ -92,7 +95,11 @@ let video_container = document.getElementsByClassName("main-container-video-sec-
                 temp = "https://animerulz.xyz/" + anime + "/Watch-Now/?ep=" + epi_num + "&aud=" + anime_audios.getAttribute("name") ;
                 window.open(temp, "_self");
             }
-            
+            try{
+                if(epi_aud != 'mul')
+                document.getElementsByName("mul")[0].setAttribute("onclick", "window.open('https://animerulz.xyz/" + anime + "/Watch-Now/?ep=" + epi_num + "&aud=mul', '_self')");
+            }
+            catch{};
             try{
                 if(epi_aud != 'jap')
                     document.getElementsByName("jap")[0].setAttribute("onclick", "window.open('https://animerulz.xyz/" + anime + "/Watch-Now/?ep=" + epi_num + "&aud=jap', '_self')");
@@ -100,6 +107,7 @@ let video_container = document.getElementsByClassName("main-container-video-sec-
                     document.getElementsByName("eng")[0].setAttribute("onclick", "window.open('https://animerulz.xyz/" + anime + "/Watch-Now/?ep=" + epi_num + "&aud=eng', '_self')");
                 }
             catch{};
+            
             try{
                 if(epi_aud != 'tel')
                 document.getElementsByName("tel")[0].setAttribute("onclick", "window.open('https://animerulz.xyz/" + anime + "/Watch-Now/?ep=" + epi_num + "&aud=tel', '_self')");
