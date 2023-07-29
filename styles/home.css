@@ -57,6 +57,9 @@ a{
 }
 .home-main-info{
   width: 90%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* @media only screen and (min-width:1500px){
   .bottom-container{
