@@ -47,7 +47,10 @@ a{
   /* fill: #faa300; */
 }
 .bottom-container{
-  width: 98%;
+  width: 100vw;
+}
+.home-main-info, .trending-anime, .animes-in-trending, .most-viewed-anime-container, .best-on-imdb-container{
+  width: 100%;
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
