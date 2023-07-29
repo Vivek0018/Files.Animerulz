@@ -80,7 +80,9 @@ function show_search_box(){
 // var nav = document.getElementsByClassName("nav-bar")[0];
 // var add_this = document.getElementById("addthis");
 setTimeout(preloaderDisplayNone, 5000);
-window.addEventListener("load", preloaderDisplayNone());
+window.addEventListener("load", function(){
+    this.setTimeout(preloaderDisplayNone, 1000);
+});
     function preloaderDisplayNone(){
         try{
             var loader = document.getElementById("preloader");
