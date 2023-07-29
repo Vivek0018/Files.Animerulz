@@ -782,6 +782,7 @@ iframe{
 .multi-audio-des{
   color: rgba(255, 255, 255, 0.8);
   padding: 10px;
+  padding-top: 0;
 }
 .multi-audio-des .str-audio-mul{
   color: #faa300;
@@ -789,6 +790,6 @@ iframe{
 .svg-mul-audio{
   fill: rgba(255, 255, 255, 0.8);
 }
-.audio-container{
+/* .audio-container{
   padding-bottom: 2px;
-}
+} */
