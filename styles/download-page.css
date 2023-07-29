@@ -360,7 +360,7 @@ iframe{
   display: flex;
   background-color: rgba(0, 0, 0, 0.8);
   margin: 0;
-  height: 110px;
+  min-height: 110px;
 }
 .video-number{
   background-color: #faa300;
@@ -778,4 +778,17 @@ iframe{
   .play-svg{
     margin-top: -15px;
   }
+}
+.multi-audio-des{
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+.multi-audio-des .str-audio-mul{
+  color: #faa300;
+}
+.svg-mul-audio{
+  fill: rgba(255, 255, 255, 0.8);
+}
+.audio-container{
+  padding-bottom: 2px;
 }
