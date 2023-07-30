@@ -78,12 +78,24 @@ let video_container = document.getElementsByClassName("main-container-video-sec-
                 try{
                     if( epi_num <= current_short_anime_data['hin']['no_epi'])
                         outputNew += "<div class='audio' name='hin'>Hindi</div>";
+                }
+                catch{}
+                try{
                     if( epi_num <= current_short_anime_data['tel']['no_epi'])
-                        outputNew += "<div class='audio' name='tel'>Telugu</div>";
+                    outputNew += "<div class='audio' name='tel'>Telugu</div>";
+                }
+                catch{}
+                try{
                     if( epi_num <= current_short_anime_data['tam']['no_epi'])
                         outputNew += "<div class='audio' name='tam'>Tamil</div>";
+                }
+                catch{}
+                try{
                     if( epi_num <= current_short_anime_data['mal']['no_epi'])
                         outputNew += "<div class='audio' name='mal'>Malayalam</div>";
+                }
+                catch{}
+                try{
                     if( epi_num <= current_short_anime_data['ben']['no_epi'])
                         outputNew += "<div class='audio' name='ben'>Bengali</div>";
                 }
