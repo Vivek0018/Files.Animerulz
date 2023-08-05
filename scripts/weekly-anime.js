@@ -5,7 +5,7 @@ function nextDay(x, i , j){
     var minutes = j;
     var seconds = 0;
     now.setDate(now.getDate() + (x + (7 - now.getDay())) % 7);
-    if((now.getHours() > hours) && (now.getMinutes() > minutes) && (now.getDate() == present.getDate()))
+    if((now.getHours() > hours || now.getHours() == hours && now.getMinutes() > minutes) && (now.getDate() == present.getDate()))
         now.setDate(now.getDate() + 7);
     now.setMinutes(minutes);
     now.setHours(hours);
@@ -24,9 +24,8 @@ function prevDay(x, i, j){
     now.setSeconds(seconds);
     now.setDate(now.getDate() - (x + (now.getDay())) % 7);
     let temp = now.getDate();
-    if(present.getHours() < now.getTime() && present.getDate() == now.getDate())
+    if((present.getHours() < now.getHours() || present.getHours() == now.getHours() && present.getMinutes() < now.getMinutes()) && (present.getDate() == now.getDate()))
         now.setDate(temp - 7);
-    console.log(now);
     return now;
 }
 
@@ -45,8 +44,9 @@ function setAnimeTimings(y, i, j){
 
 
 try{
+    //for download page
     let present_ani = document.getElementById("a-active-page-tag").textContent;
-    console.log( "'" + present_ani + "'");
+    // console.log( "'" + present_ani + "'");
     switch(present_ani){
         case "Jujutsu Kaisen Season 2" : 
             setAnimeTimings(5, 9, 0);
@@ -57,11 +57,14 @@ try{
         case "Bleach : TYBW Season 2" : 
             setAnimeTimings(6, 21, 0);
             break;
+        case "Zom 100" :
+            setAnimeTimings(2, 14, 30);
+            break;
     }
 }
 catch{
     let present_ani_me = document.getElementById("active-page-tag").textContent;
-    console.log( "'" + present_ani_me + "'");
+    // console.log( "'" + present_ani_me + "'");
     switch(present_ani_me){
         case "Jujutsu Kaisen Season 2" : 
             setAnimeTimings(5, 9, 0);
@@ -71,6 +74,9 @@ catch{
             break;
         case "Bleach : TYBW Season 2" : 
             setAnimeTimings(1, 21, 0);
+            break;
+        case "Zom 100" :
+            setAnimeTimings(5, 14, 30);
             break;
     }
 }
