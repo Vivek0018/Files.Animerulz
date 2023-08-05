@@ -530,10 +530,11 @@
             "https://gotaku1.com/download?id=MjA1NDk1&typesub=Animerulz%20Anime-SUB&title=Jigokuraku+Episode+9",
             "https://gotaku1.com/download?id=MjA1OTg0&typesub=Animerulz%20Anime-SUB&title=Jigokuraku+Episode+10",
             "https://gotaku1.com/download?id=MjA2NDA3&typesub=Animerulz%20Anime-SUB&title=Jigokuraku+Episode+11",
-            "https://gotaku1.com/download?id=MjA2ODU4&typesub=Animerulz%20Anime-SUB&title=Jigokuraku+Episode+12"]
+            "https://gotaku1.com/download?id=MjA2ODU4&typesub=Animerulz%20Anime-SUB&title=Jigokuraku+Episode+12",
+            "https://gotaku1.com/download?id=MjA3MzM3&typesub=Animerulz Anime-SUB&title=Jigokuraku+Episode+13"]
         },
         "eng" : {
-            "no_epi" : 10,
+            "no_epi" : 13,
             "link" : "https://player.anikatsu.me/index.php?id=jigokuraku-dub-episode-",
             "down_links" : 
             ["https://gotaku1.com/download?id=MjAyOTMx&typesub=Animerulz Anime-DUB&title=Jigokuraku+%28Dub%29+Episode+1",
@@ -545,7 +546,10 @@
             "https://gotaku1.com/download?id=MjA1MDY4&typesub=Animerulz%20Anime-DUB&title=Jigokuraku+%28Dub%29+Episode+7",
             "https://gotaku1.com/download?id=MjA1NTA3&typesub=Animerulz%20Anime-DUB&title=Jigokuraku+%28Dub%29+Episode+8",
             "https://gotaku1.com/download?id=MjA2NDE3&typesub=Animerulz%20Anime-DUB&title=Jigokuraku+%28Dub%29+Episode+9",
-            "https://gotaku1.com/download?id=MjA2ODY4&typesub=Animerulz%20Anime-DUB&title=Jigokuraku+%28Dub%29+Episode+10"]
+            "https://gotaku1.com/download?id=MjA2ODY4&typesub=Animerulz%20Anime-DUB&title=Jigokuraku+%28Dub%29+Episode+10",
+            "https://gotaku1.com/download?id=MjA3MzQ0&typesub=Animerulz Anime-DUB&title=Jigokuraku+%28Dub%29+Episode+11",
+            "https://gotaku1.com/download?id=MjA3ODU1&typesub=Animerulz Anime-DUB&title=Jigokuraku+%28Dub%29+Episode+12",
+            "https://gotaku1.com/download?id=MjA4Mjg5&typesub=Animerulz Anime-DUB&title=Jigokuraku+%28Dub%29+Episode+13"]
         },
         "episodes_names" : [
             "The Death Row Convict and the Executioner",
@@ -559,7 +563,8 @@
             "Gods and People",
             "Yin and Yang",
             "Weak and Strong",
-            "Umbrella and Ink"
+            "Umbrella and Ink",
+            "Dreams and Reality"
         ]
     },
     "Attack on Titan" : {
@@ -1250,14 +1255,16 @@
             "https://gotaku1.com/download?id=MjA3MjQ1&typesub=Animerulz%20Anime-SUB&title=Mashle+Episode+12"]
         },
         "eng" : {
-            "no_epi" : 6,
+            "no_epi" : 8,
             "link" : "https://player.anikatsu.me/index.php?id=Mashle-dub-episode-",
             "down_links" : ["https://gotaku1.com/download?id=MjA1MDEy&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+1",
                             "https://gotaku1.com/download?id=MjA1NDMx&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+2",
                             "https://gotaku1.com/download?id=MjA1ODc5&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+3",
                             "https://gotaku1.com/download?id=MjA2Mzc5&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+4",   
                             "https://gotaku1.com/download?id=MjA2NzU0&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+5",
-                            "https://gotaku1.com/download?id=MjA3MjQ2&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+6"]
+                            "https://gotaku1.com/download?id=MjA3MjQ2&typesub=Animerulz%20Anime-DUB&title=Mashle+%28Dub%29+Episode+6",
+                            "https://gotaku1.com/download?id=MjA5MDc5&typesub=Animerulz Anime-DUB&title=Mashle+%28Dub%29+Episode+7",
+                            "https://gotaku1.com/download?id=MjA5NTY4&typesub=Animerulz Anime-DUB&title=Mashle+%28Dub%29+Episode+8"]
         },
         "episodes_names" : ["Mash Burnedead and the Body of the Gods", "Mash Burnedead and the Mysterious Maze", "Mash Burnedead and the Baleful Bully", "Mash Burnedead and the Challenging Magic User", "Mash Burnedead and the Unpopular Classmate", "Mash Burnedead and the Magic of Iron", "Mash Burnedead and the Mysterious Letter", "Mash Burnedead and the Puppet Master","Mash Burnedead and the Puppet Master", "Mash Burnedead and the Wolves of Magic", "Mash Burnedead and the Accelerated Battle", "Mash Burndead and the Divine Visionary", "Mash Burndead and the Survival of the Fittest", "Mash Burnedead and the Magic Mirror"]
     },
@@ -1279,14 +1286,19 @@
             "https://gotaku1.com/download?id=MjA3MDc0&typesub=Animerulz%20Anime-SUB&title=%22Oshi+no+Ko%22+Episode+11"]
         },
         "eng" : {
-            "no_epi" : 6,
+            "no_epi" : 11,
             "link" : "https://player.anikatsu.me/index.php?id=oshi-no-ko-dub-episode-",
             "down_links" : ["https://gotaku1.com/download?id=MjA0ODc1&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+1",
                             "https://gotaku1.com/download?id=MjA1MzIx&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+2",
                             "https://gotaku1.com/download?id=MjA1NzUx&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+3",
                             "https://gotaku1.com/download?id=MjA2MjU1&typesub=Animerulz%20Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+4",
                             "https://gotaku1.com/download?id=MjA2NjM2&typesub=Animerulz%20Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+5",
-                            "https://gotaku1.com/download?id=MjA3MDc2&typesub=Animerulz%20Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+6"]
+                            "https://gotaku1.com/download?id=MjA3MDc2&typesub=Animerulz%20Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+6",
+                            "https://gotaku1.com/download?id=MjA3Njgw&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+7",
+                            "https://gotaku1.com/download?id=MjA4MDYx&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+8",
+                            "https://gotaku1.com/download?id=MjA4NDM5&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+9",
+                            "https://gotaku1.com/download?id=MjA4OTI5&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+10",
+                            "https://gotaku1.com/download?id=MjA5NDY0&typesub=Animerulz Anime-DUB&title=%22Oshi+no+Ko%22+%28Dub%29+Episode+11"]
         },
         "episodes_names" : ["Mother and Children", "Third Option", "Manga-Based TV Drama", "Actors", "Reality Dating Show", "Egosurfing", "Buzz", "First time", "B Komachi", "Pressure", "Idol"]
     },
