@@ -219,14 +219,19 @@
             "https://gotaku1.com/download?id=MjA2NDQw&typesub=Animerulz%20Anime-SUB&title=Kimetsu+no+Yaiba%3A+Katanakaji+no+Sato-hen+Episode+11"]
         },
         "eng" : {
-            "no_epi" : 5,
+            "no_epi" : 10,
             "link" : "https://player.anikatsu.me/index.php?id=demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-dub-episode-",
             "down_links" : [
                 "https://gotaku1.com/download?id=MjA1MTAx&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+1",
                 "https://gotaku1.com/download?id=MjA1NTI2&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+2",
                 "https://gotaku1.com/download?id=MjA2MDI1&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+3",
                 "https://gotaku1.com/download?id=MjA2NDQz&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+4",
-                "https://gotaku1.com/download?id=MjA2OTk3&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+5"]
+                "https://gotaku1.com/download?id=MjA2OTk3&typesub=Animerulz%20Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+5",
+                "https://gotaku1.com/download?id=MjA3NDQ5&typesub=Animerulz Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+6",
+                "https://gotaku1.com/download?id=MjA3ODg2&typesub=Animerulz Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+7",
+                "https://gotaku1.com/download?id=MjA4MzE0&typesub=Animerulz Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+8",
+                "https://gotaku1.com/download?id=MjA4Njk1&typesub=Animerulz Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+9",
+                "https://gotaku1.com/download?id=MjA5MjEz&typesub=Animerulz Anime-DUB&title=Demon+Slayer%3A+Kimetsu+no+Yaiba+Swordsmith+Village+Arc+%28Dub%29+Episode+10"]
         },
         "episodes_names" :[
             "Someones Dream",
@@ -238,7 +243,8 @@
             "Awful Villain",
             "The Mu in Muichiro",
             "The Mist Hashira Muichiro Tokito",
-            "Love Hashira Mitsuri Kanroji"
+            "Love Hashira Mitsuri Kanroji",
+            "A Connected Bond: Daybreak and First Light"
         ]
     },
     "FullMetal Alchemist : Brotherhood" : {
@@ -1921,9 +1927,12 @@
             ]
         },
         "eng" : {
-            "no_epi" : 0,
-            "link" : "",
-            "down_links" : []
+            "no_epi" : 3,
+            "link" : "https://player.anikatsu.me?id=jujutsu-kaisen-2nd-season-dub-episode-",
+            "down_links" : [
+                "https://gotaku1.com/download?id=MjA4NTA2&typesub=Animerulz Anime-DUB&title=Jujutsu+Kaisen+2nd+Season+%28Dub%29+Episode+1",
+                "https://gotaku1.com/download?id=MjA5MDE2&typesub=Animerulz Anime-DUB&title=Jujutsu+Kaisen+2nd+Season+%28Dub%29+Episode+2",
+                "https://gotaku1.com/download?id=MjA5NTEw&typesub=Animerulz Anime-DUB&title=Jujutsu+Kaisen+2nd+Season+%28Dub%29+Episode+3"]
         },
         "episodes_names" : ["Hidden Inventory", "Hidden Inventory 2", "Hidden Inventory 3", "Hidden Inventory 4", "Premature Death", "It`s Like That"]
     },
@@ -2532,11 +2541,12 @@
     },
     "Zom 100" : {
         "jap" : {
-            "no_epi" : 3,
+            "no_epi" : 4,
             "link" : "https://player.anikatsu.me?id=zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto-episode-",
             "down_links" : ["https://gotaku1.com/download?id=MjA3ODcw&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+1",
                             "https://gotaku1.com/download?id=MjA4Mjk3&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+2",
-                            "https://gotaku1.com/download?id=MjA4NjM0&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+3"]
+                            "https://gotaku1.com/download?id=MjA4NjM0&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+3",
+                            "https://gotaku1.com/download?id=MjA5Mjc1&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+4"]
         },
         "eng" : {
             "no_epi" : 0,
