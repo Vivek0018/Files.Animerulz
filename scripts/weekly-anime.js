@@ -52,7 +52,7 @@ try{
             setAnimeTimings(5, 9, 0);
             break;
         case "One Piece" : 
-            setAnimeTimings(0, 10, 0);
+            setAnimeTimings(0, 9, 0);
             break;
         case "Bleach : TYBW Season 2" : 
             setAnimeTimings(6, 21, 0);
@@ -70,7 +70,7 @@ catch{
             setAnimeTimings(5, 9, 0);
             break;
         case "One Piece" : 
-            setAnimeTimings(0, 10, 0);
+            setAnimeTimings(0, 9, 0);
             break;
         case "Bleach : TYBW Season 2" : 
             setAnimeTimings(1, 21, 0);
