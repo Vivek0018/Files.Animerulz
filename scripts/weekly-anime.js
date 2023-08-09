@@ -63,11 +63,12 @@ try{
     }
 }
 catch{
+    //for anime page
     let present_ani_me = document.getElementById("active-page-tag").textContent;
     // console.log( "'" + present_ani_me + "'");
     switch(present_ani_me){
         case "Jujutsu Kaisen Season 2" : 
-            setAnimeTimings(5, 9, 0);
+            setAnimeTimings(2, 9, 0);
             break;
         case "One Piece" : 
             setAnimeTimings(0, 9, 0);
