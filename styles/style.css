@@ -266,14 +266,16 @@ button:hover{
   }
 }
 /* search section start */
-.icon{
-    width: 40px;
-    height: 42px;
-    background-color: white;
-    border:2px rgba(0,0,0,0.95) solid;
+.search-input .icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    /* background-color: white; */
+    /* border:2px rgba(0,0,0,0.95) solid; */
     border-radius: 50%;
     padding-left: 4px;
     z-index: 5;
+    right: 20px;
     position:absolute;
     /* float:right; */
     /* margin-left: 95.5%; */
@@ -282,16 +284,17 @@ button:hover{
 }
 .search-input input{
     border: 2px rgba(0,0,0,0.95) solid;
-    border-radius: 30px;
+    border-radius: 20px;
     padding:0px 10px 0px 10px;
     outline: none;
     font-family: 'Montserrat',Arial;
     position: absolute;
-    height: 45px;
+    height: 50px;
     width: 94.7%;
     /* max-width: 1500px; */
     margin: auto;
-    padding: 0 0 0 5%;
+    padding: 0 0 0 1%;
+    background-color: rgba(255,255,255,0.9);
 }
 /* .search-input input, .search-input .autocom-box{
   width: 96.2vw;
@@ -306,11 +309,20 @@ button:hover{
   width: 90%;
 }
 .search-input{
+    animation:search-box ease-in-out 0.2s;
     display: block;
     margin-top: 80px;
     display: none;
     width:100%;
     /* transition: all 2s; */
+}
+@keyframes search-box {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 .search-input .autocom-box{
     padding: 0;
@@ -319,11 +331,13 @@ button:hover{
     max-height: 280px;
     overflow-y: auto;
     background-color: rgba(255,255,255);
-    border-radius: 25px;
+    border-radius: 10px;
     padding-top: 60px;
     padding-bottom: 10px;
     padding-left: 10px;
-    width: 98.5%;
+    width: 99%;
+    transition: all 0.1s;
+    animation: search-box ease-in-out 0.2s;
     margin-left: auto;
     margin-right: auto;
   }
@@ -333,9 +347,7 @@ button:hover{
   }
   .search-input.active .autocom-box li{
     display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
+    padding: 7px 10px;
   }
   .autocom-box li:hover{
     background: #efefef;
@@ -792,6 +804,9 @@ h1{
     height: 350px;
     /* padding-bottom: 50px; */
   }
+  .anime-rec-div:hover{
+    transform: scale(1.01);
+  }
   @media only screen and (max-width:501px){
     .anime-recom .anime-rec-div,.more-from-this .anime-rec-div{
       height: 300px;
@@ -898,6 +913,22 @@ h1{
     background-position-x: right;
     /* background-position-y: top; */
     padding-top: 10px;
+    }
+    @media only screen and (min-width:1000px){
+      .bottom{
+          animation: luffy infinite 2s;
+      }
+    }
+    @keyframes luffy{
+      0%{
+        background-position-x: -10px;
+      }
+      50%{
+        background-position-x: 10px;
+      }
+      100%{
+        background-position-x: -10px;
+      }
     }
     @media only screen and (max-width:550px){
       .terms-des{
