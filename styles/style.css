@@ -332,6 +332,8 @@ button:hover{
     overflow-y: auto;
     background-color: rgba(255,255,255);
     border-radius: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     padding-top: 60px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -914,9 +916,28 @@ h1{
     /* background-position-y: top; */
     padding-top: 10px;
     }
+    @media only screen and (max-width:600px){
+      .bottom{
+        background-size: 200% 110%;
+        /* background-position-x: -350px; */
+        animation: luffy-mobile infinite 2s;
+      }
+    }
     @media only screen and (min-width:1000px){
       .bottom{
-          animation: luffy infinite 2s;
+          transition: all 1s;
+          animation: luffy infinite 10s;
+      }
+    }
+    @keyframes luffy-mobile {
+      0%{
+        background-position-x: -350px;
+      }
+      50%{
+        background-position-x: -340px;
+      }
+      100%{
+        background-position-x: -350px;
       }
     }
     @keyframes luffy{
@@ -1467,4 +1488,54 @@ h1{
 /*for testing*/
 .search-input .input{
   display: none;
+}
+
+
+/*animation for h2 tags*/
+
+.header-in-trending{
+  width: max-content;
+}
+.trending-anime .header-in-trending h2{
+  overflow: hidden;
+  width: max-content;
+  padding:0 5px;
+  border-right: 2px #faa300 solid;
+  /* transition: all 1s; */
+  white-space: nowrap;
+  animation: blink infinite step-end 0.75s,typing infinite 1.5s steps(14);
+}
+.best-on-imdb-container h2{
+  overflow: hidden;
+  width: max-content;
+  padding:0 5px;
+  border-right: 2px #faa300 solid;
+  /* transition: all 1s; */
+  white-space: nowrap;
+  animation: blink infinite step-end 0.75s,typing infinite 1.2s steps(11);
+}
+.most-viewed-anime-container h2{
+  overflow: hidden;
+  width: max-content;
+  padding:0 5px;
+  border-right: 2px #faa300 solid;
+  /* transition: all 1s; */
+  white-space: nowrap;
+  animation: blink infinite step-end 0.75s,typing infinite 2.5s steps(24);
+}
+@keyframes typing {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}
+@keyframes blink {
+  from{
+    border-color: transparent;
+  }
+  50%{
+    border-color: #faa300;
+  }
 }
