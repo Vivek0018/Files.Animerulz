@@ -19,7 +19,7 @@
   display: block;
   /* position: absolute; */
   margin-top: 0px;
-  z-index: 2;
+  /* z-index: 2; */
   /* width: 96%; */
   /* display: none; */
 }
@@ -37,7 +37,7 @@ a{
   padding: 10px;
 }
 .home-main-info h1{
-  font-size: 13px;
+  font-size: 80%;
 }
 .home-main-info svg{
   height: 20px;
@@ -47,7 +47,9 @@ a{
   /* fill: #faa300; */
 }
 .bottom-container{
-  width: 100vw;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .trending-anime, .animes-in-trending, .most-viewed-anime-container, .best-on-imdb-container{
   width: 100%;
@@ -71,42 +73,51 @@ a{
 }
 .container-in-trending{
   display: flex;
+  height: 100%;
 }
 .vertical-container h3{
-  /* rotate: -90deg; */
-  /* vertical-align: middle;*/
-  transform: rotate(-90deg);
-  color:rgba(255,255,255,0.6);
-  margin: 0;
-  /* justify-content: center;
-  text-align: center;
-  vertical-align:middle; */
-  /* margin-top: 100px; */
-  /* line-height: 10px; */
-  width: 200px;
-  margin-left: -80px;
-  margin-top: 130px;
-  font-size: 120%;
+  color: rgba(255,255,255,0.7);
   display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  position: absolute;
+  padding-left: 20px;
+  margin: 0;
+  transition: margin 0.5s;
+  transform: rotate(-90deg);
+  margin-top: 120px;
+  margin-left: 100px;
+  width: 300px;
+  height: 40px;
+  line-height: 30px;
+  /* right: 0; */
+  font-size: 120%;
+    background-color: rgba(0,0,0,0.3);
 }
 .vertical-container span{
   background-color: #faa300;
   /* padding: 5px 10px; */
   /* width: 0px; */
-  padding: 0 8px;
+  /* padding: 0 8px; */
+  width: 60px;
   height: 30px;
   font-size: 20px;
   text-align: center;
-  padding-top: 6px;
+  padding-top: 2px;
   /* position: absolute; */
-  margin-top: 250px;
+  /* margin-top: 250px; */
 }
 .vertical-container{
-  width: 40px;
-  background: linear-gradient(180deg,#4a4b51 0,rgba(74,75,81,0) 99%);
+  height: 40px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  /* top: 0; */
+  /* background: linear-gradient(180deg,#4a4b51 0,rgba(74,75,81,0) 99%); */
   /* background:linear-gradient(0deg, rgba(0,0,0,0.2),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(255,255,255,0.4), rgba(255,255,255,0.7)); */
 }
 .animes-in-trending,.anime-in-container-most-viewed,.container-best-on-imdb{
@@ -117,18 +128,46 @@ a{
   display: none;
 }
 .anime-in-trending{
-  min-width: 230px;
-  margin: 0 10px;
+  position: relative;
+  min-width: 200px;
+  min-height: 300px;
+  margin-right: 10px;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.7);
+  background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%);
+
 }
 /* .anime-in-trending .image-container {
   width: 400px;
 } */
 .anime-in-trending .image-container img{
-  width: 200px;
-  height: 300px;
+  position: absolute;
+  /* z-index: -1; */
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.anime-in-trending .image-container a{
+  /* opacity: 0; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* z-index: 100; */
 }
 .anime-in-trending:hover{
   cursor: pointer;
+}
+.anime-in-trending:hover > .container-in-trending .image-container img{
+  /* height: 310px;
+  width: 210px; */
+  overflow: hidden;
+  /* margin-left: -5px; */
+  transform: scale(1.1);
+}
+@media only screen and (min-width:800px){
+  .anime-in-trending:hover > .container-in-trending .vertical-container h3{
+    margin-left: 20px;
+  }
 }
 .animes-in-trending,.container-best-on-imdb,.anime-in-container-most-viewed{
   width: 98%;
@@ -145,6 +184,10 @@ a{
   /* .anime-in-trending .image-container{
     width: 200px;
   } */
+  .anime-in-trending{
+    min-width: 170px;
+    min-height: 240px;
+  }
   .anime-in-trending .image-container img{
     width: 170px;
     height: 240px;
@@ -156,10 +199,13 @@ a{
 }
 @media only screen and (max-width:800px){
   .anime-in-trending{
-  min-width: 170px;
+  min-width: 140px;
+  min-height: 220px;
 }
 .vertical-container{
-  width: 25px;
+  width: 100%;
+  height: 30px;
+  /* display: flex; */
 }
 /* .anime-in-trending .image-container{
   width: 200px;
@@ -169,11 +215,16 @@ a{
   height: 220px;
 }
 .vertical-container h3{
-  margin-top: 70px;
-  margin-left: -90px;
+  position: static;
   font-size: 100%;
+  transform: rotate(0);
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 .vertical-container span{
+  width: 30px;
+  height: 30px;
   font-size: 16px;
   padding: 0 3px;
 }
@@ -188,6 +239,7 @@ a{
   }
 .anime-in-trending{
   min-width: 120px;
+  min-height: 180px;
   position: relative;
 }
 .vertical-container{
@@ -220,15 +272,103 @@ a{
 }
 .vertical-container span{
   margin: 0;
-  height: 20px;
-  font-size: 14px;
-  padding: 0 3px;
+  height: auto;
+  margin-top: -5px;
+  font-size: 12px;
+  /* padding: 0 3px; */
 }
 .anime-in-trending{
   margin: 0 5px;
 }
 .home-main-info h1{
-  font-size: 12px;
+  font-size: 70%;
 }
 }
 
+.notification{
+  display: none;
+  height: 80vh;
+  width: 90vw;
+  z-index: 100;
+  padding: 10vh 5vw 10vh 5vw;
+  position: fixed;
+}
+.notification-content{
+  /* background-color: #faa300; */
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.notification-background{
+  position: absolute;
+  z-index: -1;
+  height: 80vh;
+  width: 90vw;
+  background:linear-gradient(90deg, rgba(0,0,0,0.4)0%,rgba(0,0,0,0.3) 20%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.4) 60%,rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.8)100%), url(https://images.alphacoders.com/127/1271677.png);
+  filter: blur(5px);
+  background-size: cover;
+}
+.notification .close-div-not{
+  height: 40px;
+  width: 40px;
+  /* float: right; */
+  margin: 10px;
+  padding: 15px;
+  padding-bottom: 20px;
+  transition: all 0.5s;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 50%;
+  cursor: pointer;
+  right: 6vw;
+  position: absolute;
+}
+.notification .close-div-not:hover{
+  background-color: rgba(255,255,255,0.7);
+}
+.notification .close-div-not{
+  height: 20px;
+  width: 20px;
+}
+.notification .notification-container{
+  width: 80vw;
+  height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 300px;
+}
+.notification .notification-container .left-container-not{
+  width: 40%;
+}
+.notification .notification-container .right-container-not{
+  width: 40%;
+}
+.notification h3{
+  font-size: 20px;
+  margin: 0;
+}
+.notification h2{
+  font-size: 50px;
+  margin:20px 10px 10px 0;
+}
+.notification .sub-sub{
+  display: flex;
+}
+.notification .sub-sub span{
+  margin-top: 50px;
+}
+.right-container-not .countdown{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+.right-container-not .countdown .hours, .min, .sec{
+  font-size: 60px;
+  color: rgba(255,255,255,0.7);
+}
+.right-container-not .countdown .hours-txt{
+  font-size: 20px;
+  color: rgba(255,255,255,0.7);
+}
