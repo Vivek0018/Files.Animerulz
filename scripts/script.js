@@ -94,6 +94,8 @@ window.addEventListener("load", function(){
 
 //for navbar 
 function nav_bar_cust(){
+    let old_nav;
+    let new_nav = 0;
     window.onscroll = function(){
         const temp = document.getElementById("active-page-tag-season");
         // document.getElementsByTagName("html")[0].innerHTML = temp;
@@ -109,16 +111,29 @@ function nav_bar_cust(){
         else{
            nav.style.backgroundColor = "#00000066";
         }
-        if((navRect.top-windowVerticalScroll) < "-930"){
-           nav.style.marginTop = "-140px";
+        old_nav = new_nav;
+        new_nav = windowVerticalScroll;
+        console.log(windowVerticalScroll);
+        // console.log(navRect.top, new_nav, old_nav);
+        if(new_nav > old_nav){
+            nav.style.marginTop = "-140px";
            search_bar.style.display = "none";
-           // search_bar.style.transition = "display 0.5s";
+            console.log("in")
         }
         else{
-         nav.style.marginTop = "0";
+            nav.style.marginTop = "0";
         }
+        // console.log(navRect.top-windowVerticalScroll, navRect.top+windowVerticalScroll, windowVerticalScroll, navRect.top);
+        // if((navRect.top-windowVerticalScroll) < "-930"){
+        //    nav.style.marginTop = "-140px";
+        //    search_bar.style.display = "none";
+        //    // search_bar.style.transition = "display 0.5s";
+        // }
+        // else if((navRect.top + windowVerticalScroll) > "930"){
+        //  nav.style.marginTop = "0";
+        // }
     };
-}
+}document.get
 //for checking whether it is download page or anime page
 var temp = document.getElementsByClassName("anchor-for-back-page");
 
@@ -163,12 +178,6 @@ try{
 catch{}
 
 
-function removeAds(){
-    const myIframe = document.getElementsByTagName("iframe")[0];
-    console.log(myIframe);
-    let myIframeBody = myIframe.contentWindow.getElementsByTagName("head")[0];
-    console.log(myIframeBody);
-}
 
 
 // setInterval(removeAds, 5000);
