@@ -113,16 +113,19 @@ function nav_bar_cust(){
         }
         old_nav = new_nav;
         new_nav = windowVerticalScroll;
-        console.log(windowVerticalScroll);
-        // console.log(navRect.top, new_nav, old_nav);
-        if(new_nav > old_nav){
+        // console.log(windowVerticalScroll);
+        console.log(navRect.top-windowVerticalScroll > 100);
+        if(new_nav > old_nav && navRect.top-windowVerticalScroll < "-500"){
             nav.style.marginTop = "-140px";
-           search_bar.style.display = "none";
-            console.log("in")
+            // console.log("in")
+            search_bar.style.display = "none";
         }
         else{
             nav.style.marginTop = "0";
         }
+        // if(navRect.top-windowVerticalScroll > "-100"){
+        //     search_bar.style.display = "none";
+        // }
         // console.log(navRect.top-windowVerticalScroll, navRect.top+windowVerticalScroll, windowVerticalScroll, navRect.top);
         // if((navRect.top-windowVerticalScroll) < "-930"){
         //    nav.style.marginTop = "-140px";
