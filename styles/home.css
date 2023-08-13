@@ -171,6 +171,8 @@ a{
 }
 .animes-in-trending,.container-best-on-imdb,.anime-in-container-most-viewed{
   width: 98%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
