@@ -926,7 +926,7 @@ h1{
     @media only screen and (min-width:1000px){
       .bottom{
           transition: all 1s;
-          animation: luffy infinite 10s;
+          animation: luffy infinite 2s;
       }
     }
     @keyframes luffy-mobile {
