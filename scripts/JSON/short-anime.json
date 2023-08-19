@@ -2566,11 +2566,13 @@
                             "https://gotaku1.com/download?id=MjA5OTg1&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+5"]
         },
         "eng" : {
-            "no_epi" : 0,
-            "link" : "",
-            "down_links" : []
+            "no_epi" : 1,
+            "link" : "https://player.anikatsu.me?id=zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto-dub-episode-",
+            "down_links" : [
+                "https://gotaku1.com/download?id=MjA5OTk1&typesub=Animerulz Anime-DUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+%28Dub%29+Episode+1"
+            ]
         },
-        "episodes_names" : ["Akira of the Dead", "Bucket list of the Dead", "Best Friend of the Dead", "Flight Attendant of the Dead"]
+        "episodes_names" : ["Akira of the Dead", "Bucket list of the Dead", "Best Friend of the Dead", "Flight Attendant of the Dead", "Hero of the Dead", "RV of the Dead"]
     },
     "Fire Force" : {
         "jap" : {
