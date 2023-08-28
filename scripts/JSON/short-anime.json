@@ -2558,19 +2558,22 @@
     },
     "Zom 100" : {
         "jap" : {
-            "no_epi" : 5,
+            "no_epi" : 6,
             "link" : "https://player.anikatsu.me?id=zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto-episode-",
             "down_links" : ["https://gotaku1.com/download?id=MjA3ODcw&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+1",
                             "https://gotaku1.com/download?id=MjA4Mjk3&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+2",
                             "https://gotaku1.com/download?id=MjA4NjM0&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+3",
                             "https://gotaku1.com/download?id=MjA5Mjc1&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+4",
-                            "https://gotaku1.com/download?id=MjA5OTg1&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+5"]
+                            "https://gotaku1.com/download?id=MjA5OTg1&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+5",
+                            "https://goone.pro/download?id=MjEwODY4&typesub=Animerulz Anime-SUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+Episode+6"]
         },
         "eng" : {
-            "no_epi" : 1,
+            "no_epi" : 3,
             "link" : "https://player.anikatsu.me?id=zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto-dub-episode-",
             "down_links" : [
-                "https://gotaku1.com/download?id=MjA5OTk1&typesub=Animerulz Anime-DUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+%28Dub%29+Episode+1"
+                "https://gotaku1.com/download?id=MjA5OTk1&typesub=Animerulz Anime-DUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+%28Dub%29+Episode+1",
+                "https://goone.pro/download?id=MjEwNDUz&typesub=Animerulz Anime-DUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+%28Dub%29+Episode+2",
+                "https://goone.pro/download?id=MjEwODE5&typesub=Animerulz Anime-DUB&title=Zom+100%3A+Zombie+ni+Naru+made+ni+Shitai+100+no+Koto+%28Dub%29+Episode+3"
             ]
         },
         "episodes_names" : ["Akira of the Dead", "Bucket list of the Dead", "Best Friend of the Dead", "Flight Attendant of the Dead", "Hero of the Dead", "RV of the Dead"]
